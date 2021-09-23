@@ -60,31 +60,10 @@ li a {
   display: block;
   padding: 3px;
   font-size: 105%;
+  background-color: #ffea9a;
  color: #833a33;
 }
 
-
-/*
-#menu {
-  position: fixed;
-  right: 0;
-    height: 60px;
-    line-height: 50px;
-    margin-top: -8.5em;
-    font-size: 105%;
-    letter-spacing: 2.5px;
-    color: #833a33;
-}
-
-#menu li {
-  right: 0;
-   height: 70px;
-    line-height: 55px;
-    float: right;
-    list-style-type: none;
-    margin-right: 25px;
-}
-*/
 /* Styling for inxex.html page */
 /*
 .about-text {
