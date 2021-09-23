@@ -11,15 +11,36 @@ body {
     color: #833a33;
 }
 
-/* Headings and Logo */
+/* Homepage headings and image styling */
 
-h1, h2 {
+h1 {
+    float: left;
+    font-family: Yaldevi, Abel;
+    text-align: center;
+    text-transform: capitalize;
+    color: #833a33;
+    letter-spacing: 2.5px;
+}
+
+h2 {
     float: left;
     font-family: Yaldevi, Abel;
     text-transform: capitalize;
     color: #833a33;
     letter-spacing: 2.5px;
 }
+
+img {
+    width: 10%;
+    height: 10%;
+    margin-top: 0%;
+  }
+  
+  .flag-image {
+    float: left;
+    margin-left: 25%;
+  }
+
 
 #menu {
     font-size: 105%;
@@ -30,7 +51,8 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 25px;
+    margin-top: -10px;
+    margin-right: 5px;
 }
 
 /* Styling for inxex.html page */
@@ -41,10 +63,12 @@ h1, h2 {
  float: left;
 }
 
+/*
 h4, p {
     border: 3px solid #78756C;
 
 }
+*/
 
 /* Footer Syling below */
 
