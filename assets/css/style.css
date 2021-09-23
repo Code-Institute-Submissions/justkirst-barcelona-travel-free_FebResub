@@ -14,18 +14,19 @@ body {
 /* Homepage headings and image styling */
 
 h1 {
+    position: relative;
     float: left;
+    height: 100px;
     font-family: Yaldevi, Abel;
     text-align: center;
-    text-transform: capitalize;
     color: #833a33;
     letter-spacing: 2.5px;
 }
 
 h2 {
     float: left;
+    margin-top: 10em;
     font-family: Yaldevi, Abel;
-    text-transform: capitalize;
     color: #833a33;
     letter-spacing: 2.5px;
 }
@@ -41,27 +42,46 @@ img {
     margin-left: 25%;
   }
 
-
 #menu {
+  position: fixed;
+  right: 0;
+    height: 60px;
+    line-height: 50px;
+    margin-top: -8.5em;
     font-size: 105%;
     letter-spacing: 2.5px;
     color: #833a33;
 }
 
 #menu li {
+  right: 0;
+   height: 70px;
+    line-height: 55px;
     float: right;
     list-style-type: none;
-    margin-top: -10px;
-    margin-right: 5px;
-}
+    margin-right: 25px;
 
 /* Styling for inxex.html page */
 
-#about-travel {
-    padding-top: -20px;
- width: 30%;
- float: left;
-}
+.about-text {
+    border: 2px solid #78756C;
+    width: 50%%;
+    float: :left;
+    line-height: 15px;
+    clear: both;
+    margin-left: 0px;
+    margin-bottom: 20px;
+   }
+   
+   .news-text {
+   border: 2px solid #78756C;
+    width: 50%%;
+    float: right;
+    line-height: 15px;
+    clear: both;
+    margin-right: 0;
+    margin-bottom: 20px;
+   }
 
 /*
 h4, p {
