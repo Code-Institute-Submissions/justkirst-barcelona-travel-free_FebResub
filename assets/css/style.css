@@ -12,6 +12,7 @@ body {
 }
 
 /* Homepage headings and image styling */
+
 .nav-bar  {
      position: fixed;
      }
@@ -94,6 +95,22 @@ h4, p {
 
 }
 */
+
+#box-content {
+  background-color: #F7A305;
+color: #82031A;
+font-family: Yaldevi, Abel;
+width: 300px;
+border: 4px solid #F2F2F2;
+padding: 50px;
+margin: 20px;
+}
+.map iframe {
+position: absolute;
+padding: bottom;
+height: 40%;
+overflow: hidden;
+}
 
 /* Footer Syling below */
 
