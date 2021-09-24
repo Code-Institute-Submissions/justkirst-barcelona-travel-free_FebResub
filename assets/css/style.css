@@ -8,7 +8,9 @@
 
 body {
     font-family: Yaldevi, Abel;
-    color: #833a33;
+   background-color: #ffea9a;
+  color: #82031A;
+
 }
 
 /* Homepage headings and image styling */
@@ -65,37 +67,6 @@ li a {
  color: #833a33;
 }
 
-/* Styling for inxex.html page */
-/*
-.about-text {
-    border: 2px solid #78756C;
-    width: 50%%;
-    float: :left;
-    line-height: 15px;
-    clear: both;
-    margin-right: 10%;
-    margin-bottom: 20px;
-    margin-left: 20px;
-   }
-   
-   .news-text {
-   border: 2px solid #78756C;
-    width: 50%%;
-    float: right;
-    line-height: 15px;
-    clear: both;
-    margin-right: 10%;
-    margin-bottom: 20px;
-    margin-left: 20px;
-   }
-*/
-/*
-h4, p {
-    border: 3px solid #78756C;
-
-}
-*/
-
 #box-content {
   background-color: #F7A305;
 color: #82031A;
@@ -112,11 +83,18 @@ height: 40%;
 overflow: hidden;
 }
 
+/* Image Styling for The Bar page */
+
+.bar-image {
+  display: block;
+  width: 30%;
+  height: 15%;
+  margin-top: 0%;
+}
+
 /* Footer Syling below */
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+  position: absolute;
+   height: 150px;
 }
