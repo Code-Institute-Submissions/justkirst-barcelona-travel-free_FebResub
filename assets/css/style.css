@@ -74,27 +74,19 @@ li a {
 
 /* text box styling */
 
-.box-content-contact {
-  display: inline-grid;
-  grid-template-columns: 4fr;
-  grid-template-rows: 4fr;
+.box-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: #ffea9a;
+  padding: 4px;
+}
+.box-item {
   background-color: #F7A305;
-  color: #82031A;
-  font-family: 'Lato', 'Source Sans Pro', sans-serif;
-  flex-start
+  border: 4px solid #F2F2F2;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
 }
-
-#box-content {
-  width: 300px;
-border: 4px solid #f2f2f2e0;
-border-radius: 25px;
-}
-
-.booking-box {
-  grid-column: 2 5;
-  grid-row: 1 4;
-}
-
 
 .map iframe {
 position: absolute;
@@ -114,15 +106,16 @@ overflow: hidden;
   border: 5.5px #F2F2F2;
 }
 
-/* Styling for The Bar page */
+/* Styling for The Tour pages */
 
-.bar-image {
-  display: block;
-  width: 30%;
-  height: 15%;
-  margin-top: 0%;
-  border-radius: 25px;
-  border: 5.5px #F2F2F2;
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: no-repeat center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
