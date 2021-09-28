@@ -42,8 +42,16 @@ h2 {
 }
 
   .flag-image {
+    width: 10%;
+    height: 10%;
     float: left;
     margin-left: 25%;
+  }
+
+  .logo-image {
+    width: 10%;
+    height: 10%;
+    margin-top: 0%;
   }
 
 ul {
@@ -121,6 +129,16 @@ overflow: hidden;
 
 /* Styling for The Tour pages */
 
+.tour-image {
+  display: block;
+  width: 34rem;
+  height: 25rem;
+  margin: 0 auto 0 auto;
+  border-radius: 25px;
+  border: 5.5px #F2F2F2;
+}
+
+
 /*
 
 #hero-outer {
@@ -162,7 +180,7 @@ textarea {
 /* Footer Syling below */
 
 footer {
-  position: fixed;
+  position: absolute;
   padding: 10px 10px 0px 10px;
   bottom: 0;
   width: 100%;
