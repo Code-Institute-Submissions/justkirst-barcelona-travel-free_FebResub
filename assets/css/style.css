@@ -80,20 +80,6 @@ li a {
   background-color: #ffea9a;
   padding: 4px;
 }
-.box-item {
-  background-color: #F7A305;
-  border: 4px solid #F2F2F2;
-  border-radius: 15px;
-  font-size: 18px;
-  text-align: center;
-}
-
-.map iframe {
-position: absolute;
-padding: bottom;
-height: 40%;
-overflow: hidden;
-}
 
 .box-container-1grid {
   display: grid;
@@ -108,13 +94,28 @@ overflow: hidden;
   align-self: center;
 }
 
+.box-item {
+  background-color: #F7A305;
+  border: 4px solid #F2F2F2;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.map iframe {
+position: absolute;
+padding: bottom;
+height: 50vh
+overflow: hidden;
+}
+
 /* image styling for the index page */
 
 .about-image {
   display: block;
   width: 30%;
   height: 15%;
-  margin-top: 0%;
+  margin: 0 auto 0 auto;
   border-radius: 25px;
   border: 5.5px #F2F2F2;
 }
@@ -148,16 +149,6 @@ overflow: hidden;
 }
 */
 
-/* Footer Syling below */
-
-footer {
-  position: fixed;
-  padding: 10px 10px 0px 10px;
-  bottom: 0;
-  width: 100%;
-  height: 38px;
-}
-
 /* Styling for booking and contact page */
 
 textarea {
@@ -168,3 +159,14 @@ textarea {
     border: 4px solid #F2F2F2;
     box-shadow: 1px 1px 1px #999;
 }
+
+/* Footer Syling below */
+
+footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 38px;
+}
+
