@@ -108,10 +108,11 @@ overflow: hidden;
 
 /* Styling for The Tour pages */
 
-.hero-image {
+.hero-image-walking {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-image: url(/assets/images/walking-tour.jpg);
   background: no-repeat center center;
   display: flex;
   justify-content: center;
