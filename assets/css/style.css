@@ -96,8 +96,15 @@ overflow: hidden;
 }
 
 .box-container-1grid {
+  display: grid;
   width: 36%;
   height: 22%;
+  align-self: center;
+}
+ 
+.box-container-2grid {
+  display: grid;
+  grid-template-columns: 15% 45%;
   align-self: center;
 }
 
