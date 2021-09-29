@@ -129,17 +129,13 @@ overflow: hidden;
 
 /* Styling for The Tour pages */
 
-#tour-image {
-  margin: 0 auto 0 auto;
-  border-radius: 25px;
-  border: 5.5px #F2F2F2;
-}
 
 .tour-image {
   display: block;
-  object-fit: contain;
-  width: 60%;
-  height: 100%;
+  margin: 0 auto 0 auto;
+  width: 50%;
+  border-radius: 25px;
+  border: 5.5px #F2F2F2;
 }
 
 
