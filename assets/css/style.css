@@ -89,6 +89,8 @@ h2 {
   grid-template-columns: 33% 33% 33%;
   background-color: #ffea9a;
   padding: 4px;
+  gap: 4px;
+  align-items: center;
 }
 
 .box-container-1grid {
@@ -141,46 +143,84 @@ h2 {
 
 /* Styling for The Tour pages */
 
-
-.tour-image {
-  display: block;
-  margin: 0 auto 0 auto;
-  width: 50%;
-  border-radius: 25px;
-  border: 5.5px #F2F2F2;
-}
-
 .tour-experience-box {
   list-style: none;
 }
 
 
-/*
+/* Hero image styling */
 
-#hero-outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
+..hero-image-about {
+  height: 90%;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+   background-image: url(/assets/images/about-us.jpg);
+ }
+
+.hero-image-walking {
+  height: 90%;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+   background-image: url(/assets/images/walking-tour.png);
+ }
+
+ .hero-image-foodie {
+  height: 90%;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+   background-image: url(/assets/images/tapas.jpg);
+ }
+
+ .hero-image-modernism {
+  height: 90%;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+   background-image: url(/assets/images/modernism.jpeg);
+ }
+ .hero-image-montserrat {
+  height: 90%;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+   background-image: url(/assets/images/montserrat.jpeg);
+ }
+
+.hero-image-nuria {
+ height: 90%;
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+  background-image: url(/assets/images/vall-de-nuria-m.jpeg);
 }
 
-#cover-text h3 {
-  font-size: 5em;
-  margin-top: 0;
-  margin-bottom: 0.5em;
+.hero-image-costabrava {
+  height: 90%;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+   background-image: url(/assets/images/costa-brava.jpeg);
+ }
+
+.hero-text {
+  padding: 25px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: #82031A;
 }
 
-#hero-image-walking {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-image: url(/assets/images/walking-tour.jpg);
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.hero-button {
+  color: #e2d2d5;
+  background-color: #F2F2F2;
+  border: 4px solid #F2F2F2;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
 }
-*/
 
 /* Styling for booking and contact page */
 
