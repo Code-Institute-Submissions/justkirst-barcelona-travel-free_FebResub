@@ -68,11 +68,11 @@ As shown in my wireframes, I also initially wanted to add a “Getting Here” a
 ## Content
 
 * All content on the website was written by myself
-* Fonts were sourced from [link to Google Fonts] (https://fonts.google.com/)
-* Icons were sourced from Font Awesome [link to Font Awesome] (https://fontawesome.com/icons)
+* Fonts were sourced from [Google_Fonts] [https://fonts.google.com/]
+* Icons were sourced from Font Awesome [Font_Awesome] [https://fontawesome.com/icons]
 
 ## Media
 
-* The header logo images were sourced from [link to Canva] (https://www.canva.com/en_gb/) 
-* The photos used were sourced from freepix.com and shutterstock.com
+* The header logo images were sourced from [link_to_Canva] [https://www.canva.com/en_gb/] 
+* The photos used were sourced from [Freepix] [https://www.freepik.com/] and [Shutterstock] [https://www.shutterstock.com/]
 * Photos used on the tour information pages except for the Free Walking Tour and Foodie Trip information pages were taken by me.
