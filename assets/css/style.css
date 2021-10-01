@@ -260,25 +260,42 @@ footer {
     margin-left: -20rem;
 }
 
-/* For medium screen sizes 950px wide and down 
+/* For medium screen sizes 950px wide and down */
 
 @media screen and (max-width: 950px) {
 
  
   header {
-    text-align: left;
+    float: left;
+  }
 
+  .box-container {
+    width: 65%;
+  }
+  
+  .box-container-1grid {
+    width: 65%;
+  }
+  
+  .box-container-2grid {
+    width: 65%;
+
+  }
+  
+  .box-item {
+    width: 20%;
   }
 
   h3 {
     text-align: justify;
   }
 
-  .box-container  {
-    width: 20%;
+  text {
+    font-size: 35%;
   }
 
   footer {
+    margin-left: 40%;
  text-align: right;
 
    
@@ -335,6 +352,23 @@ footer {
     font-size: 20px;
   }
 
-  .box-container, .box-container-1grid, .box-container-2grid, .box-item {
-    width: 20%;
+  text {
+    font-size: small;
+  }
+
+  .box-container {
+    width: 30%;
+  }
+  
+  .box-container-1grid {
+    width: 30%;
+  }
+  
+  .box-container-2grid {
+    width: 30%;
+
+  }
+  
+  .box-item {
+    width: 30%;
   }
