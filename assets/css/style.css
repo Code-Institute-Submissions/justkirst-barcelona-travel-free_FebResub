@@ -136,61 +136,72 @@ h2 {
 }
 
 
-/* Hero image styling */
+/* Hero image styling for homepage */
 
 .hero-image-about {
- background: url('../images/about-us.jpg') no-repeat bottom center;
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image-about::before {
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/about-us.jpg') no-repeat center center;
+    background-size: cover;
+    filter: brightness(80%);
  }
+
+ .hero-content {
+   position: relative;
+ }
+
+ .hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 5rem;
+}
+
+ /* Tour page hero images */
 
  .hero-image-tours {
-   background: url('../images/barcelona-skyline.jpg') no-repeat bottom left;
- }
+    background: url('../images/barcelona-skyline.jpg') no-repeat bottom left;
+  }
 
 .hero-image-walking {
-  height: 90%;
- background-position: center;
- background-repeat: no-repeat;
- position: relative;
-   background-image: url(/assets/images/walking-tour.png);
+   background: url('../images/walking-tour.jpg') no-repeat center center;
+   background-size: 80%;
  }
 
  .hero-image-foodie {
-  height: 90%;
- background-position: center;
- background-repeat: no-repeat;
- position: relative;
-   background-image: url(/assets/images/tapas.jpg);
+   background: url('../images/tapas.jpg') no-repeat center center;
  }
 
  .hero-image-modernism {
-  height: 90%;
- background-position: center;
- background-repeat: no-repeat;
- position: relative;
-   background-image: url(/assets/images/modernism.jpeg);
+background: url('../images/modernism.jpeg') no-repeat center center;
  }
  .hero-image-montserrat {
-  height: 90%;
- background-position: center;
- background-repeat: no-repeat;
- position: relative;
-   background-image: url(/assets/images/montserrat.jpeg);
+   background: url('../images/montserrat.jpeg') no-repeat top center;
  }
 
 .hero-image-nuria {
- height: 90%;
-background-position: center;
-background-repeat: no-repeat;
-position: relative;
-  background-image: url(/assets/images/vall-de-nuria-m.jpeg);
+  background: url('../images/vall-de-nuria-m.jpeg') no-repeat center center;
 }
 
 .hero-image-costabrava {
-  height: 90%;
- background-position: center;
- background-repeat: no-repeat;
- position: relative;
-   background-image: url(/assets/images/costa-brava.jpeg);
+  background: url('../images/costa-brava.jpeg') no-repeat center center;
  }
 
 .hero-text {
