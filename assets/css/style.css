@@ -93,31 +93,19 @@ h2 {
   align-items: center;
 }
 
-.box-container-1grid {
-  display: grid;
-  width: 36%;
-  height: 22%;
-  align-self: center;
-}
- 
-.box-container-2grid {
-  display: grid;
-  grid-template-columns: 15% 45%;
-  align-self: center;
-}
-
 .box-item {
+  width: 90%;
   background-color: #F7A305;
   border: 4px solid #F2F2F2;
-  border-radius: 15px;
-  font-size: 17px;
+  border-radius: 0.9rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 
 /* iframe styling */
 
 .map-size iframe {
-  height: 100%
+  height: 100%;
   width: 50vh;
   overflow: hidden;
 }
@@ -137,7 +125,7 @@ h2 {
   width: 30%;
   height: 15%;
   margin: 0 auto 0 auto;
-  border-radius: 25px;
+  border-radius: 1.6rem;
   border: 5.5px #F2F2F2;
 }
 
@@ -150,20 +138,12 @@ h2 {
 
 /* Hero image styling */
 
-..hero-image-about {
-  height: 90%;
- background-position: center;
- background-repeat: no-repeat;
- position: relative;
-   background-image: url(/assets/images/about-us.jpg);
+.hero-image-about {
+ background: url('../images/about-us.jpg') no-repeat bottom center;
  }
 
  .hero-image-tours {
-  height: 90%;
- background-position: center;
- background-repeat: no-repeat;
- position: relative;
-   background-image: url(/assets/images/barcelona-skyline.jpg);
+   background: url('../images/barcelona-skyline.jpg') no-repeat bottom left;
  }
 
 .hero-image-walking {
@@ -214,8 +194,8 @@ position: relative;
  }
 
 .hero-text {
-  padding: 25px;
-  font-size: 20px;
+  padding: 1.6rem;
+  font-size: 1.25rem;
   font-weight: bolder;
   text-align: center;
   color: #82031A;
@@ -225,16 +205,16 @@ position: relative;
   color: #e2d2d5;
   background-color: #F2F2F2;
   border: 4px solid #F2F2F2;
-  padding: 10px;
-  font-size: 15px;
-  border-radius: 10px;
+  padding: 0.625rem;
+  font-size: 0.93rem;
+  border-radius: 0.625rem;
 }
 
 /* Styling for booking and contact page */
 
 textarea {
-  padding: 10px;
-    max-width: 100%;
+  padding: 0.625rem;
+    max-width: 80%%;
     line-height: 1.5;
     border-radius: 5px;
     border: 4px solid #F2F2F2;
@@ -242,13 +222,24 @@ textarea {
 }
 
 /* Footer Syling below */
+/*
+.footer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: #ffea9a;
+  padding: 4px;
+  gap: 4px;
+  align-items: center;
+}
+*/
+
 
 footer {
   width: 40rem;
     position: fixed;
     bottom: 0px;
-    left: 22%;
-    margin-left: -20rem;
+    left: 2%;
+
 }
 
 .social-links {
@@ -256,9 +247,18 @@ footer {
   width: 40rem;
     position: fixed;
     bottom: 0px;
-    left: 50%;
-    margin-left: -20rem;
+    left: 25%;
+  
 }
+
+.terms-link {
+  text-align: right;
+  position: fixed;
+  bottom: 0px;
+  right: 10%;
+ 
+}
+
 
 /* For medium screen sizes 950px wide and down */
 
@@ -307,8 +307,8 @@ footer {
 #menu {
   clear: left;
         float: left;
-        margin-bottom: 20px;
-        line-height: 25px;
+        margin-bottom: 1.25rem;
+        line-height: 1.56rem;
 }
 }
 
