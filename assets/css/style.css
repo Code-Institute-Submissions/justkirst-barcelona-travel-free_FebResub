@@ -314,26 +314,17 @@ footer {
 
 /*for screen sizes over 540px and under 767px wide
 @media (min-width: 540px) {
-
   header {
     text-align: center;
-
   }
-
   h3 {
     text-align: center;
   }
-
   .box-container  {
     width: 5%;
   }
-
-
-
-
  /*for screen sizes over 760px and under 950px wide
 @media (min-width: 950px) { 
-
   */
 
   /* For screen sizes under 540px */
@@ -341,17 +332,10 @@ footer {
 @media (max-width: 540px) { 
 
   h1 {
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.flag-image {
-  width: 10%;
-  height: 10%;
-  float: left;
-  margin-left: 2%;
-  margin-top: 15%;
-}
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 12%;
+  }
 
   h3 {
     font-size: 0.9rem;
@@ -362,6 +346,13 @@ footer {
     font-size: 0.8rem;
     text-align: center;
   }
+
+  .flag-image {
+    margin-top: 12%;
+  }
+
+
+  
 
   .box-container {
     width: 90%;
@@ -375,3 +366,4 @@ footer {
   textarea {
     max-width: 85%;
   }
+}
