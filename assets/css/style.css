@@ -223,16 +223,15 @@ textarea {
 
 /* Footer Syling below */
 /*
-.footer {
+footer {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 30% 32% 35%;
   background-color: #ffea9a;
+  text-align: center;
   padding: 4px;
   gap: 4px;
-  align-items: center;
 }
 */
-
 
 footer {
   width: 40rem;
@@ -258,6 +257,7 @@ footer {
   right: 10%;
  
 }
+
 
 
 /* For medium screen sizes 950px wide and down */
@@ -340,35 +340,38 @@ footer {
 
 @media (max-width: 540px) { 
 
-  header {
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.flag-image {
+  width: 10%;
+  height: 10%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 15%;
+}
+
+  h3 {
+    font-size: 0.9rem;
     text-align: center;
   }
 
-  h1 {
-    font-size: 30px;
-  }
-
-  h3 {
-    font-size: 20px;
-  }
-
-  text {
-    font-size: small;
+  h4 {
+    font-size: 0.8rem;
+    text-align: center;
   }
 
   .box-container {
-    width: 30%;
-  }
-  
-  .box-container-1grid {
-    width: 30%;
-  }
-  
-  .box-container-2grid {
-    width: 30%;
-
+    width: 90%;
+    grid-template-columns: auto;
   }
   
   .box-item {
-    width: 30%;
+    width: 90%;
+  }
+
+  textarea {
+    max-width: 85%;
   }
