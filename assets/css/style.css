@@ -9,7 +9,7 @@
 body {
   font-family: 'Karla', 'Montserrat', sans-serif;
    background-color: #ffea9a;
-  color: #82031A;
+  color: #70342D;
 
 }
 
@@ -48,7 +48,7 @@ body {
   padding: 3px;
   font-size: 105%;
   background-color: #ffea9a;
- color: #833a33;
+ color: #70342D;
 }
 
 .heading-text {
@@ -57,7 +57,7 @@ body {
   height: 6.25rem;
   font-family: 'Karla', 'Montserrat', sans-serif;
   text-align: center;
-  color: #82031A;
+  color: #70342D;
   letter-spacing: 2.5px;
 }
 
@@ -184,10 +184,15 @@ body {
  }
 
  .hero-image-modernism {
-background: url('../images/modernism.jpeg') no-repeat center center;
-border-radius: 1.6rem;
-border: 5.5px #F2F2F2;
+  background: url('../images/modernism.jpeg') no-repeat center center;
+  border-radius: 1.6rem;
+  z-index: 500;
+  width: 70rem;
+  height: 10rem;
+  border: 5.5px #F2F2F2;
+  justify-content: center;
  }
+
  .hero-image-montserrat {
    background: url('../images/montserrat.jpeg') no-repeat top center;
    border-radius: 1.6rem;
@@ -211,7 +216,7 @@ border: 5.5px #F2F2F2;
   font-size: 1.25rem;
   font-weight: bolder;
   text-align: center;
-  color: #82031A;
+  color: #70342D;
 }
 
 .hero-button {
