@@ -313,9 +313,10 @@ textarea {
 
 #menu {
   clear: left;
-        float: left;
-        margin-bottom: 1.25rem;
-        line-height: 1.56rem;
+  float: left;
+  width: 85%;
+  margin-bottom: 1.25rem;
+  line-height: 1.56rem;
 }
 }
 
@@ -340,9 +341,10 @@ h4 {
 }
 
 .footer-container {
-  width: 90%;
-  grid-template-columns: 33% 33% 33%;
-  justify-content: center;
+  width: 100%;
+  padding: 2em 0;
+  text-align: center;
+  height: 9.3rem;
 }
 
 .footer-box {
@@ -413,8 +415,9 @@ h4 {
 }
 
 .footer-container {
-  width: 90%;
-  grid-template-columns: 30%;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   justify-content: center;
 }
 
@@ -486,8 +489,9 @@ textarea {
   }
 
   .footer-container {
-    width: 90%;
-    grid-template-columns: 30%;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     justify-content: center;
   }
 
