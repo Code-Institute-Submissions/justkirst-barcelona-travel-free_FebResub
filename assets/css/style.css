@@ -88,6 +88,7 @@ h2 {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   background-color: #ffea9a;
+  margin: 0 10% 0 10%;
   padding: 4px;
   gap: 4px;
   align-items: center;
@@ -114,19 +115,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-
-
-/* image styling for the index page */
-
-.about-image {
-  display: block;
-  width: 30%;
-  height: 15%;
-  margin: 0 auto 0 auto;
-  border-radius: 1.6rem;
-  border: 5.5px #F2F2F2;
 }
 
 /* Styling for The Tour pages */
@@ -156,6 +144,8 @@ h2 {
     height: 100%;
     background: url('../images/about-us.jpg') no-repeat center center;
     background-size: cover;
+    border-radius: 1.6rem;
+    border: 5.5px #F2F2F2;
     filter: brightness(80%);
  }
 
@@ -178,30 +168,43 @@ h2 {
 
  .hero-image-tours {
     background: url('../images/barcelona-skyline.jpg') no-repeat bottom left;
+    border-radius: 1.6rem;
+    border: 5.5px #F2F2F2;
   }
 
 .hero-image-walking {
    background: url('../images/walking-tour.jpg') no-repeat center center;
-   background-size: 80%;
+   border-radius: 1.6rem;
+   border: 5.5px #F2F2F2;
  }
 
  .hero-image-foodie {
    background: url('../images/tapas.jpg') no-repeat center center;
+   border-radius: 1.6rem;
+   border: 5.5px #F2F2F2;
  }
 
  .hero-image-modernism {
 background: url('../images/modernism.jpeg') no-repeat center center;
+border-radius: 1.6rem;
+border: 5.5px #F2F2F2;
  }
  .hero-image-montserrat {
    background: url('../images/montserrat.jpeg') no-repeat top center;
+   border-radius: 1.6rem;
+   border: 5.5px #F2F2F2;
  }
 
 .hero-image-nuria {
   background: url('../images/vall-de-nuria-m.jpeg') no-repeat center center;
+  border-radius: 1.6rem;
+  border: 5.5px #F2F2F2;
 }
 
 .hero-image-costabrava {
   background: url('../images/costa-brava.jpeg') no-repeat center center;
+  border-radius: 1.6rem;
+  border: 5.5px #F2F2F2;
  }
 
 .hero-text {
@@ -260,6 +263,19 @@ textarea {
     float: left;
   }
 
+  .hero-image-about {
+    width: 100%;
+  }
+  
+  .hero-title {
+    font-size:medium;
+    font-weight:bolder
+  }
+  
+  .hero-subtitle {
+    font-size:small
+  }
+
   .box-container {
     width: 65%;
   }
@@ -274,6 +290,15 @@ textarea {
 
   text {
     font-size: 35%;
+  }
+
+  .footer-container {
+    position: relative;
+    clear: both;
+    height: 40rem;
+    padding: 4px;
+    gap: 4px;
+    align-items: center;
   }
 
   /*
@@ -314,6 +339,16 @@ h4 {
   text-align: center;
 }
 
+.footer-container {
+  width: 90%;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+}
+
+.footer-box {
+  width: 90%;
+}
+
 .flag-image {
   width: 10%;
   height: 10%;
@@ -329,6 +364,19 @@ float: right;
 margin-top: 15%;
 margin-right: 2%;
 }  
+
+.hero-image-about {
+  height:40%;
+}
+
+.hero-title {
+  font-size:medium;
+  font-weight:bolder
+}
+
+.hero-subtitle {
+  font-size:small
+}
 
 .box-container {
   width: 90%;
@@ -364,6 +412,16 @@ h4 {
   text-align: center;
 }
 
+.footer-container {
+  width: 90%;
+  grid-template-columns: 30%;
+  justify-content: center;
+}
+
+.footer-box {
+  width: 90%;
+}
+
 .flag-image {
   width: 10%;
   height: 10%;
@@ -379,6 +437,19 @@ float: right;
 margin-top: 15%;
 margin-right: 2%;
 }  
+
+.hero-image-about {
+  height:40%;
+}
+
+.hero-title {
+  font-size:medium;
+  font-weight:bolder
+}
+
+.hero-subtitle {
+  font-size:small
+}
 
 .box-container {
   width: 90%;
@@ -399,7 +470,7 @@ textarea {
 @media screen and (max-width: 540px) { 
 
   h1 {
-      font-size: 1.5rem;
+      font-size: 1rem;
       text-align: center;
       margin-top: 12%;
   }
@@ -414,8 +485,14 @@ textarea {
     text-align: center;
   }
 
-  footer {
-    justify-items: center;
+  .footer-container {
+    width: 90%;
+    grid-template-columns: 30%;
+    justify-content: center;
+  }
+
+  .footer-box {
+    width: 90%;
   }
 
   .flag-image {
@@ -430,9 +507,21 @@ textarea {
   width: 10%;
   height: 10%;
   float: right;
-  margin-top: 15%;
-  margin-right: 2%;
+  margin: 8% 10% 0 0;
 }  
+
+.hero-image-about {
+  height:40%;
+}
+
+.hero-title {
+  font-size:medium;
+  font-weight:bolder
+}
+
+.hero-subtitle {
+  font-size:small
+}
 
 .box-container {
     width: 90%;
