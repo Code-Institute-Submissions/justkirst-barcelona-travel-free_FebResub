@@ -69,6 +69,10 @@ h2 {
     letter-spacing: 2.5px;
 }
 
+.section-title {
+  text-align: center;
+}
+
   .flag-image {
     width: 10%;
     height: 10%;
@@ -225,6 +229,10 @@ border: 5.5px #F2F2F2;
 }
 
 /* Styling for booking and contact page */
+
+.center-text {
+  text-align: center;
+}
 
 textarea {
   padding: 0.625rem;
