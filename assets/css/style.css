@@ -233,43 +233,23 @@ textarea {
 }
 
 /* Footer Syling below */
-/*
-footer {
+
+.footer-container {
   display: grid;
-  grid-template-columns: 30% 32% 35%;
-  background-color: #ffea9a;
-  text-align: center;
+  position: relative;
+    clear: both;
+    height: 40rem;
+  grid-template-columns: 30rem 30rem 30rem;
   padding: 4px;
   gap: 4px;
-}
-*/
-
-footer {
-  width: 40rem;
-    position: fixed;
-    bottom: 0px;
-    left: 2%;
-
+  align-items: center;
 }
 
-.social-links {
+.footer-box {
+  width: 90%;
+  font-size: 1.1rem;
   text-align: center;
-  width: 40rem;
-    position: fixed;
-    bottom: 0px;
-    left: 25%;
-  
 }
-
-.terms-link {
-  text-align: right;
-  position: fixed;
-  bottom: 0px;
-  right: 10%;
- 
-}
-
-
 
 /* For medium screen sizes 950px wide and down */
 
@@ -296,11 +276,12 @@ footer {
     font-size: 35%;
   }
 
+  /*
   footer {
     margin-left: 40%;
  text-align: right; 
   }
-
+*/
 .nav-bar {
     font-size: 60%;
 }
@@ -432,6 +413,8 @@ textarea {
     font-size: 0.8rem;
     text-align: center;
   }
+
+
 
   .flag-image {
     width: 10%;
