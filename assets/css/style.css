@@ -414,7 +414,9 @@ textarea {
     text-align: center;
   }
 
-
+  footer {
+    justify-items: center;
+  }
 
   .flag-image {
     width: 10%;
