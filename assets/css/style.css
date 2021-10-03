@@ -51,25 +51,17 @@ body {
  color: #833a33;
 }
 
-h1 {
-    position: relative;
-    float: left;
-    height: 6.25rem;
-    font-family: 'Karla', 'Montserrat', sans-serif;
-    text-align: center;
-    color: #82031A;
-    letter-spacing: 2.5px;
+.heading-text {
+  position: relative;
+  float: left;
+  height: 6.25rem;
+  font-family: 'Karla', 'Montserrat', sans-serif;
+  text-align: center;
+  color: #82031A;
+  letter-spacing: 2.5px;
 }
 
-h2 {
-    float: left;
-    margin-top: 10em;
-    font-family: 'Karla', 'Montserrat', sans-serif;
-    color: #82031A;
-    letter-spacing: 2.5px;
-}
-
-.section-title {
+.center-text {
   text-align: center;
 }
 
@@ -110,7 +102,7 @@ h2 {
 /* iframe styling */
 
 .map-size iframe {
-  height: 100%;
+  height: 45vh;
   width: 50vh;
   overflow: hidden;
 }
@@ -160,9 +152,12 @@ h2 {
  .hero-title {
   font-size: 3rem;
   font-weight: 800;
-  margin-bottom: 0;
+  margin: -6em 0 0 0;
+  text-align: center;
+  letter-spacing: 2.5px;
 }
 .hero-subtitle {
+  text-align: center;
   font-size: 2rem;
   font-weight: 200;
   margin-top: 5rem;
@@ -229,10 +224,6 @@ border: 5.5px #F2F2F2;
 }
 
 /* Styling for booking and contact page */
-
-.center-text {
-  text-align: center;
-}
 
 textarea {
   padding: 0.625rem;
