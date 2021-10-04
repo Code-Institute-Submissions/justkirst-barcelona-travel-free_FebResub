@@ -120,9 +120,9 @@ body {
 }
 
 
-/* Hero image styling for homepage */
+/* Hero image styling for homepage, booking page and contact page */
 
-.hero-image-about {
+.hero-image-main {
     position: relative;
     width: 100vw;
     height: 50vh;
@@ -131,7 +131,7 @@ body {
     align-items: center;
 }
 
-.hero-image-about::before {
+.hero-image-main::before {
   content: "";
     position: absolute;
     top: 0;
@@ -155,12 +155,22 @@ body {
   margin: -3em 0 0 0;
   text-align: center;
   letter-spacing: 2.5px;
+  color: #f8f8ff;
 }
 .hero-subtitle {
   text-align: center;
-  font-size: 2rem;
-  font-weight: 200;
+  font-size: 1.5rem;
+  font-weight: 150;
   margin-top: 5rem;
+  color: #f8f8ff;
+}
+
+.hero-subtitle-contact {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 150;
+  margin-top: 3rem;
+  color: #f8f8ff;
 }
 
  /* Tour page hero images */
@@ -213,7 +223,7 @@ body {
 
 .hero-text {
   padding: 1.6rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   text-align: center;
   color: #70342D;
