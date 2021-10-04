@@ -118,6 +118,39 @@ Initially, I also wanted to add a “Getting Here” and “The Bar” pages. I 
 
 ## Testing
 
+### Manual Testing
+
+During the build of the repository, I manually checked the website throughout on my large desktop computer, laptop and mobile phone to make sure the look and feel of the website was correct. I also used Chrome Dev Tools to see how the website would look on different sizes also.
+
+### Post Development Testing
+
+After developing the website, I used validation tools to highlight any performance issues.
+
+Both [W3 HTML Validator](https://validator.w3.org/nu/) and [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) found no issues.
+
+However, when testing on Lighthouse, the performance scores were low to begin with and this was due to the sizing of my images and the Google Maps iframe. I resized the images using [tinypng](https://tinypng.com/) and compressed them as much as possible without the images getting distorted.
+
+Upon testing again, I received the following scores:
+
+### Homepage
+
+Desktop Score ![Desktop Score for Lighthouse Validation](docs/screenshots/index-testing-desktop.png)
+Mobile Score ![Mobile Score for Lighthouse Validation](docs/screenshots/index-testing-mobile.png)
+
+### Tours page
+
+Desktop Score ![Desktop Score for Lighthouse Validation](docs/screenshots/tours-testing-desktop.png)
+Mobile Score ![Mobile Score for Lighthouse Validation](docs/screenshots/tours-testing-mobile.png)
+
+### Booking page
+
+Desktop Score ![Desktop Score for Lighthouse Validation](docs/screenshots/booking-testing-desktop.png)
+Mobile Score ![Mobile Score for Lighthouse Validation](docs/screenshots/booking-testing-mobile.png)
+
+### Contact Us page
+
+Desktop Score ![Desktop Score for Lighthouse Validation](docs/screenshots/contact-testing-desktop.png)
+Mobile Score ![Mobile Score for Lighthouse Validation](docs/screenshots/contact-testing-mobile.png)
 
 
 ## Deployment
