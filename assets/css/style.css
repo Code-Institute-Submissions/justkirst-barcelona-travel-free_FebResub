@@ -24,7 +24,7 @@ body {
   background-color: #ffea9a;
   }
 
-#menu a:hover {
+#nav-bar-ul a:hover {
    border: 4px solid #F7A305;
    background-color: #F7A305;
 }  
