@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    padding: 3px;
+    padding: 0;
     border: none;
 }
 
@@ -24,7 +24,16 @@ body {
   background-color: #ffea9a;
   }
 
-#nav-bar-ul a:hover {
+.nav-bar a {
+  float: left;
+  padding: 5px;
+  color: #70342D;
+  text-decoration: none;
+  font-size: 1rem; 
+  text-align: center;
+}
+
+.nav-bar a:hover {
    border: 4px solid #F7A305;
    background-color: #F7A305;
 }  
@@ -39,15 +48,6 @@ body {
 
 .nav-bar li {
   float: right;
-}
-
-
-.navbar li a {
-  display: block;
-  padding: 3px;
-  font-size: 105%;
-  background-color: #ffea9a;
- color: #70342D;
 }
 
 .heading-text {
@@ -256,14 +256,16 @@ textarea {
   clear: both;
   height: 40rem;
   grid-template-columns: 30rem 30rem 30rem;
-  padding: 4px;
+  padding: 3px;
   gap: 4px;
+  justify-content: center;
   align-items: center;
 }
 
 .footer-box {
   width: 100%;
   background-color: #F7A305;
+  padding: 3px;
   font-size: 1.1rem;
   text-align: center;
 }
