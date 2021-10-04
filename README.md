@@ -84,7 +84,7 @@ I wanted something similar but eye-catching and I used the images that I did as 
 
 ### Booking page
 
-![Screenshot of the Booking page](assets/docs/screenshots/../../../docs/screenshots/booking-page.png)
+![Screenshot of the Booking page](assets/screenshots/../../docs/screenshots/booking-form.png)
 
 * The booking page has one main box that has a form to fill out for booking tours
 * I’ve included required fields for name, email address, telephone number and tour option so that I know who has sent the information and who to respond directly too.
@@ -113,6 +113,8 @@ I deployed my project on GitHub pages via the following procedure:
 2. From the menu on the left-hand side, select the **Pages** tab
 3. In the **Source** section, select the option for **Main** branch in the drop down menu and click **Save**
 4. A message will be displayed to advise the project owner of a successful deployment to GitHub pages and the live link will be provided also
+
+The live site via the following URL - [Barcelona Travel Free](https://justkirst.github.io/barcelona-travel-free/)
 
 ## Credits
 
