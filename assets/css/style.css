@@ -29,7 +29,7 @@ body {
   padding: 5px;
   color: #70342D;
   text-decoration: none;
-  font-size: 1.2rem; 
+  font-size: 1.1rem; 
   text-align: center;
 }
 
@@ -84,7 +84,7 @@ body {
   grid-template-columns: 33% 33% 33%;
   background-color: #ffea9a;
   margin: 0 10% 0 10%;
-  padding: 4px;
+  padding: 3rem;
   gap: 4px;
   align-items: center;
 }
@@ -273,10 +273,17 @@ align-items: center;
 /* For medium screen sizes 950px wide and down */
 
 @media screen and (max-width: 950px) {
-
  
-  header {
+  .heading-text {
     float: left;
+  }
+
+  h3 {
+    text-align: justify;
+  }
+
+  text {
+    font-size: 35%;
   }
 
   .hero-image-about {
@@ -300,14 +307,6 @@ align-items: center;
     width: 20%;
   }
 
-  h3 {
-    text-align: justify;
-  }
-
-  text {
-    font-size: 35%;
-  }
-
   .footer-container {
     position: relative;
     clear: both;
@@ -316,25 +315,13 @@ align-items: center;
     gap: 4px;
     align-items: center;
   }
-
-.nav-bar {
-    font-size: 60%;
-}
-
-#menu {
-  clear: left;
-  float: left;
-  width: 85%;
-  margin-bottom: 1.25rem;
-  line-height: 1.56rem;
-}
 }
 
  /*for screen sizes over 760px and under 950px wide */
 
  @media screen and (max-width: 950px) { 
 
-  h1 {
+  .heading-text {
     font-size: 1.5rem;
     text-align: center;
     margin-top: 12%;
@@ -350,44 +337,16 @@ h4 {
   text-align: center;
 }
 
-.footer-container {
-  width: 100%;
-  padding: 2em 0;
-  text-align: center;
-  height: 9.3rem;
+.nav-bar {
+  font-size: 65%;
 }
 
-.footer-box {
-  width: 90%;
-}
-
-.flag-image {
-  width: 10%;
-  height: 10%;
-  float: left;
-  margin-top: 15%;
-  margin-left: 2%;
-}
-
-.logo-image {
-width: 10%;
-height: 10%;
-float: right;
-margin-top: 15%;
-margin-right: 2%;
-}  
-
-.hero-image-about {
-  height:40%;
-}
-
-.hero-title {
-  font-size:medium;
-  font-weight:bolder
-}
-
-.hero-subtitle {
-  font-size:small
+#nav-bar {
+clear: left;
+float: left;
+width: 85%;
+margin-bottom: 1.25rem;
+line-height: 1.56rem;
 }
 
 .box-container {
@@ -402,17 +361,29 @@ margin-right: 2%;
 textarea {
   max-width: 85%;
 }
+
+.footer-container {
+  width: 100%;
+  padding: 2em 0;
+  text-align: center;
+  height: 9.3rem;
+}
+
+.footer-box {
+  width: 90%;
+}
 }
 
 /* For screen sizes over 540px and under 760px wide */
 
 @media screen and (max-width: 760px) {
 
-  h1 {
-    font-size: 1.5rem;
+  .heading-text {
+    margin-top: -2rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
     text-align: center;
-    margin-top: 12%;
-}
+  }  
 
 h3 {
   font-size: 0.9rem;
@@ -424,22 +395,11 @@ h4 {
   text-align: center;
 }
 
-.footer-container {
-  width: 100%;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  justify-content: center;
-}
-
-.footer-box {
-  width: 90%;
-}
-
 .flag-image {
   width: 10%;
   height: 10%;
   float: left;
-  margin-top: 15%;
+  margin-top: -3rem;
   margin-left: 2%;
 }
 
@@ -447,21 +407,49 @@ h4 {
 width: 10%;
 height: 10%;
 float: right;
-margin-top: 15%;
-margin-right: 2%;
+margin-top: -2.5rem;
+margin-right: 15%;
 }  
 
 .hero-image-about {
-  height:40%;
+height:40%;
 }
 
 .hero-title {
-  font-size:medium;
-  font-weight:bolder
+font-size:medium;
+font-weight:bolder
 }
 
 .hero-subtitle {
-  font-size:small
+font-size:small
+}
+
+.hero-image-tours {
+margin-top: 4rem
+}
+
+.hero-image-walking {
+ margin-top: 4rem;
+}
+
+.hero-image-foodie {
+ margin-top: 4rem;
+}
+
+.hero-image-modernism {
+margin-top: 4rem;
+}
+
+.hero-image-montserrat {
+margin-top: 4rem;
+}
+
+.hero-image-nuria {
+margin-top: 4rem;
+}
+
+.hero-image-costabrava {
+margin-top: 4rem;
 }
 
 .box-container {
@@ -476,17 +464,29 @@ margin-right: 2%;
 textarea {
   max-width: 85%;
 }
+
+.footer-container {
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+.footer-box {
+  width: 90%;
+}
 }
 
 /* For screen sizes under 540px */
 
 @media screen and (max-width: 540px) { 
 
-  h1 {
-      font-size: 1rem;
-      text-align: center;
-      margin-top: 12%;
-  }
+  .heading-text {
+    margin-top: -2rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }  
 
   h3 {
     font-size: 0.9rem;
@@ -513,7 +513,7 @@ textarea {
     width: 10%;
     height: 10%;
     float: left;
-    margin-top: 15%;
+    margin-top: -3rem;
     margin-left: 2%;
   }
 
@@ -521,7 +521,8 @@ textarea {
   width: 10%;
   height: 10%;
   float: right;
-  margin: 8% 10% 0 0;
+  margin-top: -2.5rem;
+  margin-right: 15%;
 }  
 
 .hero-image-about {
@@ -536,6 +537,10 @@ textarea {
 .hero-subtitle {
   font-size:small
 }
+
+.hero-image-tours {
+  margin-top: 4rem;
+  }
 
 .box-container {
     width: 90%;
