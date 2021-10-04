@@ -345,6 +345,7 @@ h4 {
 clear: left;
 float: left;
 width: 85%;
+margin-left: 2px;
 margin-bottom: 1.25rem;
 line-height: 1.56rem;
 }
@@ -395,11 +396,23 @@ h4 {
   text-align: center;
 }
 
+.nav-bar {
+  font-size: 65%;
+}
+
+#nav-bar {
+clear: left;
+float: left;
+width: 85%;
+margin-bottom: 1.25rem;
+line-height: 1.56rem;
+}
+
 .flag-image {
   width: 10%;
   height: 10%;
   float: left;
-  margin-top: -3rem;
+  margin-top: 2rem;
   margin-left: 2%;
 }
 
@@ -496,6 +509,18 @@ textarea {
   h4 {
     font-size: 0.8rem;
     text-align: center;
+  }
+
+  .nav-bar {
+    font-size: 65%;
+  }
+  
+  #nav-bar {
+  clear: left;
+  float: left;
+  width: 85%;
+  margin-bottom: 1.25rem;
+  line-height: 1.56rem;
   }
 
   .footer-container {
