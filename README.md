@@ -14,6 +14,19 @@ Barcelona Travel Free is a travel company and is a site that hopes to help backp
 * Provide tours that cater towards this demographic
 * Provide a way online that is clear and easy for site users to book the tour or tours of their choice
 
+### Wireframes
+
+While designing the site, I wanted to have on paper my ideas for the end result. I completed wireframes for this reason via [Balsamiq](https://balsamiq.com/). 
+
+Although, my original ideas changed during the process, they are now features for future enhancements instead.
+
+* [(Homepage](assets/../docs/Wireframes/homepage-wireframe.png)
+* [Getting There](assets/../docs/Wireframes/gettingthere-wireframe.png)
+* [The Bar](assets/../docs/Wireframes/bar-wireframe.png)
+* [Tours](assets/../docs/Wireframes/tours-wireframe.png)
+* [Booking/Payment](assets/../docs/Wireframes/booking-wireframe.png)
+* [Contact Us](assets/../docs/Wireframes/contact-wireframe.png)
+
 ### Color Schemes
 
 For this project, I wanted the color scheme to match the Catalan colors but also be accessable for visually impaired users. I decided to use [Adobe Color](https://color.adobe.com/) as it has an accessibility feature that allows you to see how different themes are accessible for this disability group. 
