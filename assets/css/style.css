@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&display=swap');
 
 * {
     margin: 0;
@@ -7,52 +7,38 @@
 }
 
 body {
-  font-family: 'Lato', 'Source Sans Pro', sans-serif;
+  font-family: 'Karla', 'Montserrat', sans-serif;
    background-color: #ffea9a;
-  color: #82031A;
+  color: #70342D;
 
 }
 
 /* headings and navigation bar styling */
 
 .nav-bar  {
-     position: fixed;
-     }
-
-#menu a:hover {
-      border: 4px solid #F2F2F2;
-      background-color: #F2F2F2;
-  }     
-h1 {
-    position: relative;
-    float: left;
-    height: 100px;
-    font-family: 'Lato', 'Source Sans Pro', sans-serif;
-    text-align: center;
-    color: #82031A;
-    letter-spacing: 2.5px;
-}
-
-h2 {
-    float: left;
-    margin-top: 10em;
-    font-family: 'Lato', 'Source Sans Pro', sans-serif;
-    color: #82031A;
-    letter-spacing: 2.5px;
-}
-
-img {
-    width: 10%;
-    height: 10%;
-    margin-top: 0%;
-  }
-  
-  .flag-image {
-    float: left;
-    margin-left: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #ffea9a;
   }
 
-ul {
+.nav-bar a {
+  float: left;
+  padding: 5px;
+  color: #70342D;
+  text-decoration: none;
+  font-size: 1.1rem; 
+  text-align: center;
+}
+
+.nav-bar a:hover {
+   border: 4px solid #F7A305;
+   background-color: #F7A305;
+}  
+
+.nav-bar ul {
   list-style-type: none;
   position: fixed;
   top: 0;
@@ -60,86 +46,537 @@ ul {
   overflow: hidden;
 }
 
-li {
+.nav-bar li {
   float: right;
 }
 
-li a {
-  display: block;
-  padding: 3px;
-  font-size: 105%;
-  background-color: #ffea9a;
- color: #833a33;
+.heading-text {
+  position: relative;
+  float: left;
+  height: 6.25rem;
+  font-family: 'Karla', 'Montserrat', sans-serif;
+  text-align: center;
+  color: #70342D;
+  letter-spacing: 2.5px;
 }
+
+.center-text {
+  text-align: center;
+}
+
+  .flag-image {
+    width: 10%;
+    height: 10%;
+    float: left;
+    margin-left: 25%;
+  }
+
+  .logo-image {
+    width: 10%;
+    height: 10%;
+    margin-top: 0%;
+  }
 
 /* text box styling */
 
-.box-content-contact {
-  display: inline-grid;
-  grid-template-columns: 4fr;
-  grid-template-rows: 4fr;
+.box-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: #ffea9a;
+  margin: 0 10% 0 10%;
+  padding: 3rem;
+  gap: 4px;
+  align-items: center;
+}
+
+.box-item {
+  width: 90%;
+  padding-bottom: 5px;
   background-color: #F7A305;
-  color: #82031A;
-  font-family: 'Lato', 'Source Sans Pro', sans-serif;
-  flex-start
+  border: 4px solid #F2F2F2;
+  border-radius: 0.9rem;
+  font-size: 1.1rem;
+  text-align: center;
 }
 
-#box-content {
-  width: 300px;
-border: 4px solid #f2f2f2e0;
-border-radius: 25px;
+/* iframe styling */
+
+.map-size iframe {
+  height: 45vh;
+  width: 50vh;
+  overflow: hidden;
 }
 
-.booking-box {
-  grid-column: 2 5;
-  grid-row: 1 4;
+.map-size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for The Tour pages */
+
+.tour-experience-box {
+  list-style: none;
 }
 
 
-.map iframe {
-position: absolute;
-padding: bottom;
-height: 40%;
-overflow: hidden;
+/* Hero image styling for homepage, booking page and contact page */
+
+.hero-image-main {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* image styling for the index page */
+.hero-image-main::before {
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/about-us.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 1.6rem;
+    border: 5.5px #F2F2F2;
+    filter: brightness(80%);
+ }
 
-.about-image {
-  display: block;
-  width: 30%;
-  height: 15%;
-  margin-top: 0%;
-  border-radius: 25px;
+ .hero-content {
+   position: relative;
+ }
+
+ .hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: -3em 0 0 0;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #f8f8ff;
+}
+.hero-subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 150;
+  margin-top: 5rem;
+  color: #f8f8ff;
+}
+
+.hero-subtitle-contact {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 150;
+  margin-top: 3rem;
+  color: #f8f8ff;
+}
+
+ /* Tour page hero images */
+
+ .hero-image-tours {
+    background: url('../images/barcelona-skyline.jpg') no-repeat bottom left;
+    border-radius: 1.6rem;
+    border: 5.5px #F2F2F2;
+  }
+
+.hero-image-walking {
+   background: url('../images/walking-tour.jpg') no-repeat center center;
+   border-radius: 1.6rem;
+   border: 5.5px #F2F2F2;
+ }
+
+ .hero-image-foodie {
+   background: url('../images/tapas.jpg') no-repeat center center;
+   border-radius: 1.6rem;
+   border: 5.5px #F2F2F2;
+ }
+
+ .hero-image-modernism {
+  background: url('../images/modernism.jpeg') no-repeat center center;
+  border-radius: 1.6rem;
+  z-index: 500;
+  width: 70rem;
+  height: 10rem;
+  border: 5.5px #F2F2F2;
+  justify-content: center;
+ }
+
+ .hero-image-montserrat {
+   background: url('../images/montserrat.jpeg') no-repeat top center;
+   border-radius: 1.6rem;
+   border: 5.5px #F2F2F2;
+ }
+
+.hero-image-nuria {
+  background: url('../images/vall-de-nuria-m.jpeg') no-repeat center center;
+  border-radius: 1.6rem;
   border: 5.5px #F2F2F2;
 }
 
-/* Styling for The Bar page */
-
-.bar-image {
-  display: block;
-  width: 30%;
-  height: 15%;
-  margin-top: 0%;
-  border-radius: 25px;
+.hero-image-costabrava {
+  background: url('../images/costa-brava.jpeg') no-repeat center center;
+  border-radius: 1.6rem;
   border: 5.5px #F2F2F2;
+ }
+
+.hero-text {
+  padding: 1.6rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  color: #70342D;
 }
 
-
-/* Footer Syling below */
-
-footer {
-  position: absolute;
-   height: 150px;
+.hero-button {
+  color: #e2d2d5;
+  background-color: #F2F2F2;
+  border: 4px solid #F2F2F2;
+  padding: 0.625rem;
+  font-size: 0.93rem;
+  border-radius: 0.625rem;
 }
 
 /* Styling for booking and contact page */
 
 textarea {
-  padding: 10px;
-    max-width: 100%;
-    line-height: 1.5;
+  padding: 0.625rem;
+    max-width: 80%;
+    line-height: 1.5rem;
     border-radius: 5px;
     border: 4px solid #F2F2F2;
     box-shadow: 1px 1px 1px #999;
+}
+
+/* Footer Syling below */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 30% 32% 35%;
+  text-align: center;
+  position: relative;
+    clear: both;
+    height: 40rem;
+  grid-template-columns: 30rem 30rem 30rem;
+  padding: 4px;
+  gap: 4px;
+align-items: center;
+}
+
+.footer-box {
+  width: 90%;
+  font-size: 1.1rem;
+}
+
+
+/* For medium screen sizes 950px wide and down */
+
+@media screen and (max-width: 950px) {
+ 
+  .heading-text {
+    float: left;
+  }
+
+  h3 {
+    text-align: justify;
+  }
+
+  text {
+    font-size: 35%;
+  }
+
+  .hero-image-about {
+    width: 100%;
+  }
+  
+  .hero-title {
+    font-size:medium;
+    font-weight:bolder
+  }
+  
+  .hero-subtitle {
+    font-size:small
+  }
+
+  .box-container {
+    width: 65%;
+  }
+  
+  .box-item {
+    width: 20%;
+  }
+
+  .footer-container {
+    position: relative;
+    clear: both;
+    height: 40rem;
+    padding: 4px;
+    gap: 4px;
+    align-items: center;
+  }
+}
+
+ /*for screen sizes over 760px and under 950px wide */
+
+ @media screen and (max-width: 950px) { 
+
+  .heading-text {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 12%;
+}
+
+h3 {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.nav-bar {
+  font-size: 65%;
+}
+
+#nav-bar {
+clear: left;
+float: left;
+width: 85%;
+margin-left: 2px;
+margin-bottom: 1.25rem;
+line-height: 1.56rem;
+}
+
+.box-container {
+  width: 90%;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.box-item {
+  width: 90%;
+}
+
+textarea {
+  max-width: 85%;
+}
+
+.footer-container {
+  width: 100%;
+  padding: 2em 0;
+  text-align: center;
+  height: 9.3rem;
+}
+
+.footer-box {
+  width: 90%;
+}
+}
+
+/* For screen sizes over 540px and under 760px wide */
+
+@media screen and (max-width: 760px) {
+
+  .heading-text {
+    margin-top: -2rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }  
+
+h3 {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.nav-bar {
+  font-size: 65%;
+}
+
+#nav-bar {
+clear: left;
+float: left;
+width: 85%;
+margin-bottom: 1.25rem;
+line-height: 1.56rem;
+}
+
+.flag-image {
+  width: 10%;
+  height: 10%;
+  float: left;
+  margin-top: 2rem;
+  margin-left: 2%;
+}
+
+.logo-image {
+width: 10%;
+height: 10%;
+float: right;
+margin-top: -2.5rem;
+margin-right: 15%;
+}  
+
+.hero-image-about {
+height:40%;
+}
+
+.hero-title {
+font-size:medium;
+font-weight:bolder
+}
+
+.hero-subtitle {
+font-size:small
+}
+
+.hero-image-tours {
+margin-top: 4rem
+}
+
+.hero-image-walking {
+ margin-top: 4rem;
+}
+
+.hero-image-foodie {
+ margin-top: 4rem;
+}
+
+.hero-image-modernism {
+margin-top: 4rem;
+}
+
+.hero-image-montserrat {
+margin-top: 4rem;
+}
+
+.hero-image-nuria {
+margin-top: 4rem;
+}
+
+.hero-image-costabrava {
+margin-top: 4rem;
+}
+
+.box-container {
+  width: 90%;
+  grid-template-columns: auto;
+}
+
+.box-item {
+  width: 90%;
+}
+
+textarea {
+  max-width: 85%;
+}
+
+.footer-container {
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+.footer-box {
+  width: 90%;
+}
+}
+
+/* For screen sizes under 540px */
+
+@media screen and (max-width: 540px) { 
+
+  .heading-text {
+    margin-top: -2rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }  
+
+  h3 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .nav-bar {
+    font-size: 65%;
+  }
+  
+  #nav-bar {
+  clear: left;
+  float: left;
+  width: 85%;
+  margin-bottom: 1.25rem;
+  line-height: 1.56rem;
+  }
+
+  .footer-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+  }
+
+  .footer-box {
+    width: 90%;
+  }
+
+  .flag-image {
+    width: 10%;
+    height: 10%;
+    float: left;
+    margin-top: -3rem;
+    margin-left: 2%;
+  }
+
+.logo-image {
+  width: 10%;
+  height: 10%;
+  float: right;
+  margin-top: -2.5rem;
+  margin-right: 15%;
+}  
+
+.hero-image-about {
+  height:40%;
+}
+
+.hero-title {
+  font-size:medium;
+  font-weight:bolder
+}
+
+.hero-subtitle {
+  font-size:small
+}
+
+.hero-image-tours {
+  margin-top: 4rem;
+  }
+
+.box-container {
+    width: 90%;
+    grid-template-columns: auto;
+  }
+  
+  .box-item {
+    width: 90%;
+  }
+
+  textarea {
+    max-width: 85%;
+  }
 }

@@ -10,65 +10,99 @@
     <title>Barcelona Travel Free</title>
 </head>
 <body>
+
+    <!--Header section-->
+
     <header>
-        <img class="flag-image" src="assets/images/home-flag.png" alt="Catalan and Spanish flags">
-        <h1>Barcelona Travel Free</h1>
+        <img class="flag-image" src="assets/images/flag-logo.png" alt="Catalan and Spanish flags">
+        <h1 class="heading-text">Barcelona Travel Free</h1>
         <img class="logo-image" src="assets/images/logo.png" alt="logo image">
-    <nav>
-        <ul id="menu">
-            <li>
-                <a href="contact-form.html">Contact Us Form</a>
-            </li>
-            
-            <li>
-                <a href="booking-form.html">Booking Form</a>
-            </li>
-            <li>
-                <a href="tours.html">Tours</a>
-            </li>
-            <li>    
-                <a href="index.html">Home</a>
-            </li>  
-        </ul>
-    </nav>
+
+        <!--Navigation bar-->
+
+        <nav class="nav-bar">
+            <ul id="nav-bar-ul">
+                <li>
+                    <a href="contact-form.html" aria-label="contact us form for the website">Contact Us Form</a>
+                </li>
+                
+                <li>
+                    <a href="booking-form.html" aria-label="booking form for the website">Booking Form</a>
+                </li>
+                <li>
+                    <a href="tours.html" aria-label="Go to our tours information page">Tours</a>
+                </li>
+                <li>    
+                    <a href="index.html" aria-label="Go back to our homepage">Home</a>
+                </li>  
+            </ul>
+        </nav>
+        
     </header>
+
+    <!--Hero image and title-->
+
+  <section class="hero-image-main">
+      <div class="hero-content">
+          <h2 class="hero-title">Barcelona Travel Free</h2>
+          <h3 class="hero-subtitle">The best tours for backpackers run by backpackers!</h3>   
+    </div>
+  </section>
 
     <!--About Barcelona Travel Free Section-->
 
-    <section>
-    <div id="left-box">  
-        <div id="box-content">
-            <h4 align="center">About Barcelona Travel Free</h4><br>
-            <p>Barcelona Travel Free was created, and now, run by travellers like yourself. We have travelled the world and know what backpackers want in their travels.</p>
+        <div class="box-container">
+            <div class="box-item">
+                <h3>About Barcelona Travel Free</h3>
+            <p>My name is Kirsty and I started Barcelona Travel Free to help travellers get the best Barcelona has to offer. I have lived and worked in Barcelona for over 5 years and like to think, I know all the hidden gems that this wonderful city has to offer. <br><br>
+
+                The rest of the team are travellers, like yourself too and have the experience of making any trip memorable. </p> <br>
+                
             </div>
-        </div>  
-            <img class="about-image" src="assets/images/about-us.jpg" alt="Group photo of travellers having fun on a tour">
-    </section>
 
     <!--News/updates on Barcelona Section-->
-
-    <section>
-        <div id="right-box">      
-    <div id="box-content">
-        <h4 align="center">News and Updates on Barcelona</h4><br>
-        <a href="https://www.barcelona.cat/covid19/en/measures-combat-covid-19-barcelona"target="_blank" rel="noopener">Barcelona Official Updates on COVID-19 Restrictions</a>
+    <div class="box-item">
+        <h3>News and Updates on Barcelona</h3><br>
+        <a href="https://www.barcelona.cat/covid19/en/measures-combat-covid-19-barcelona" target="_blank" rel="noopener" aria-label="Visit the official Barcelona COVID measures page (Opens in a new tab)">Barcelona Official Updates on COVID-19 Restrictions</a>
     </div>
-    </div>  
-</section>
+    
+    <!--Telephone contact informtion-->
 
-    <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d47898.46360769085!2d2.174537!3d41.381602!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ac5650cf3f1b8e1!2sTravellers%20Nest%20Bar!5e0!3m2!1sen!2sus!4v1632411871867!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </section>
+        <div class="box-item">
+            <h3>Contact information</h3><br>
+            <i class="fas fa-phone"></i> <br>
+            <p>+34 932 451 234</p><br><i class="fab fa-whatsapp"></i><p>+34 612 345 678</p><br>
+        </div>
+    </div>
 
-    <footer>
-        <p>Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i></p>
-        <a href="https://www.facebook.com"target="_blank" rel="noopener"
-        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.twitter.com"target="_blank" rel="noopener"
-        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com"target="_blank" rel="noopener"
-        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-    </footer>
+    <!--Google Maps showing address of company location-->
+
+     <div class="map-size">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d47898.46360769085!2d2.174537!3d41.381602!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ac5650cf3f1b8e1!2sTravellers%20Nest%20Bar!5e0!3m2!1sen!2sus!4v1632411871867!5m2!1sen!2sus" width="500" height="350" loading="lazy" aria-label="Our address on a Google Maps frame" document.addEventListener('touchstart', onTouchStart, {passive: true});></iframe>
+</div> 
+
+<!--Footer information-->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-box">
+
+        Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i>
+</div>
+        <div class="footer-box">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener"
+    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener"
+    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener"
+    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+
+</div>
+<div class="footer-box">
+<a href="assets/pdf/terms-and-conditions.pdf" target="_blank" rel="noopener" aria-label="View our terms and conditions (Opens in a new tab)">Terms and Conditions</a>
+</div>
+</div>
+</footer>
     
     <!--Font Awesome Script-->
     <script src="https://kit.fontawesome.com/f560873ed9.js" crossorigin="anonymous"></script>
