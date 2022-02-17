@@ -11,65 +11,94 @@
 </head>
 <body>
     <header>
-        <img class="flag-image" src="assets/images/home-flag.png" alt="Catalan and Spanish flags">
-        <h1>Barcelona Travel Free</h1>
+
+    <!--Header section-->    
+
+        <img class="flag-image" src="assets/images/flag-logo.png" alt="Catalan and Spanish flags">
+        <h1 class="heading-text">Barcelona Travel Free</h1>
         <img class="logo-image" src="assets/images/logo.png" alt="logo image">
-    <nav>
-        <ul id="menu">
+    
+    <!--Navigation bar section-->    
+
+    <nav class="nav-bar">
+        <ul id="nav-bar-ul">
             <li>
-                <a href="booking-contact.html">Booking Page and Contact Page</a>
+                <a href="contact-form.html" aria-label="contact us form for the website">Contact Us Form</a>
+            </li>
+            
+            <li>
+                <a href="booking-form.html" aria-label="booking form for the website">Booking Form</a>
             </li>
             <li>
-                <a href="tours.html">Tours</a>
+                <a href="tours.html" aria-label="Go to our tours information page">Tours</a>
             </li>
             <li>    
-            <a href="the-bar.html">The Bar</a>
-            </li>
-            <li>      
-            <a href="getting-here.html">Getting Here</a>
-            </li>   
-            <li>    
-                <a href="index.html">Home</a>
+                <a href="index.html" aria-label="Go back to our homepage">Home</a>
             </li>  
         </ul>
     </nav>
-    </header>
-    
-    <h3 align="center">Free Walking Tour</h3>
-    <a href="tours.html">Back to Tours Page</a>
-    <img class="about-image" src="assets/images/walking-tour.jpg" alt="Group enjoying urban setting">
-
-    <div id="box-content">
-      <h4 align="center" class="bold-title">Tour Times</p><br>
-      <p align="center" class="bold-title">Free Walking Tour</p>
-      <p><i class="far fa-clock"></i> The tour leaves at 11:00 every day from outside the bar</p> <br>
-        <p>The <b><em> Number One</b> </em> free walking tour of Barcelona! I know, I know, it’s a bold statement to make but, hear us out. We have been rated number one on Trip Advisor for 3 years in a row <em>and</em> our tour guides are all backpackers that have been on similar tours around the world. They know exactly what fellow travellers want from a free walking tour.</p><br>
-</div>
-
- <div id="box-content">
-    <h5> What you’ll experience:</h5> <br>
         
-    The history of Barcelona and the Catalan people <br>
-    The Gothic neighbourhood <br>
-    The legends of Barcelona <br>
-    The famous artists who’ve lived in this fair city <br>
-    Christmas traditions <br>
-    And other hidden places along the way <br> <br>  
-    You can book the trip <a href="booking-contact.html">here</a>
+    </header>
+
+  <!--Hero image and tour title-->  
+    
+    <div class="hero-image-walking">
+        <div class="hero-text">
+    <h3>Free Walking Tour</h3>
+    <a href="tours.html" aria-label="Back to the Tours Page"><button class=“hero button”>Back to Tours Page</button></a>
+</div>
 </div>
 
- <footer>
-    <p>Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i></p>
-    <a href="https://www.facebook.com"target="_blank" rel="noopener"
-    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://www.twitter.com"target="_blank" rel="noopener"
-    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.instagram.com"target="_blank" rel="noopener"
-    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-</footer>
+<!--Tour information boxes-->
 
-<!--Font Awesome Script-->
-<script src="https://kit.fontawesome.com/f560873ed9.js" crossorigin="anonymous"></script>
+    <div class="box-container">
+        <div class="box-item">
+      <h4>Tour Times</h4><br>
+      <p><i class="far fa-clock"></i> The tour leaves at 11:00 every day</p> <br>
+      </div>
+    
+      <div class="box-item"> <br>
+      <p>The <b><em> Number One</b> </em> free walking tour of Barcelona! I know, I know, it’s a bold statement to make but, hear us out. We have been rated number one on Trip Advisor for 3 years in a row <em>and</em> our tour guides are all backpackers that have been on similar tours around the world. They know exactly what fellow travellers want from a free walking tour.</p><br>
+</div>
+<div class="box-item">
+    <h4> What you’ll experience:</h4> <br>
+     <ul class="tour-experience-box">
+    <li><i class="fas fa-check"></i> The history of Barcelona and the Catalan people 
+    <li><i class="fas fa-check"></i> Gothic neighbourhood </li> 
+    <li><i class="fas fa-check"></i> Legends of Barcelona </li>
+    <li><i class="fas fa-check"></i> Famous artists who’ve lived in this fair city </li>
+    <li><i class="fas fa-check"></i> Christmas traditions </li>
+   <li><i class="fas fa-check"></i> And other hidden places along the way </li> 
+     </ul> <br>
+     You can book the trip <a href="booking-form.html" aria-label="Visit our booking page">here</a>
+</div>
+</div>
+
+<!--Footer information-->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-box">
+
+        Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i>
+</div>
+        <div class="footer-box">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener"
+    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener"
+    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener"
+    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+
+</div>
+<div class="footer-box">
+<a href="assets/pdf/terms-and-conditions.pdf" target="_blank" rel="noopener" aria-label="View our terms and conditions (Opens in a new tab)">Terms and Conditions</a>
+</div>
+</div>
+</footer>
+    
+    <!--Font Awesome Script-->
+    <script src="https://kit.fontawesome.com/f560873ed9.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

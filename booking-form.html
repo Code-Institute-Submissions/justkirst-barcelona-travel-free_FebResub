@@ -11,95 +11,102 @@
 </head>
 <body>
     <header>
-        <img class="flag-image" src="assets/images/home-flag.png" alt="Catalan and Spanish flags">
-        <h1>Barcelona Travel Free</h1>
+
+        <!--Header section-->
+
+        <img class="flag-image" src="assets/images/flag-logo.png" alt="Catalan and Spanish flags">
+        <h1 class="heading-text">Barcelona Travel Free</h1>
         <img class="logo-image" src="assets/images/logo.png" alt="logo image">
-    <nav>
-        <ul id="menu">
-            <li>
-                <a href="contact-form.html">Contact Us Form</a>
-            </li>
-            
-            <li>
-                <a href="booking-form.html">Booking Form</a>
-            </li>
-            <li>
-                <a href="tours.html">Tours</a>
-            </li>
-            <li>    
-                <a href="index.html">Home</a>
-            </li>  
-        </ul>
-    </nav>
+   
+        <!--Navigation bar section-->
 
-    <style>
-
-        .box-container {
-         display: grid;
-         grid-gap: 10px;
-         grid-template-columns: auto auto;
-         background-color: #ffea9a;
-         padding: 4px;
-        }
+        <nav class="nav-bar">
+            <ul id="nav-bar-ul">
+                <li>
+                    <a href="contact-form.html" aria-label="contact us form for the website">Contact Us Form</a>
+                </li>
+                
+                <li>
+                    <a href="booking-form.html" aria-label="booking form for the website">Booking Form</a>
+                </li>
+                <li>
+                    <a href="tours.html" aria-label="Go to our tours information page">Tours</a>
+                </li>
+                <li>    
+                    <a href="index.html" aria-label="Go back to our homepage">Home</a>
+                </li>  
+            </ul>
+        </nav>
         
-        .box-item {
-          background-color: #F7A305;
-                border: 4px solid #F2F2F2;
-                border-radius: 15px;
-                font-size: 15px;
-                text-align: center;
-        }
-        
-        </style>
-
 </header>
 
-<div class="box-container">
+    <!--Booking form heading section-->
 
-    <div class="box-item"><h3 align="center">Booking Form</h3> <br>
-        <p>Please include all the required information and we'll be back in touch within 24 hours to confirm your booking.</p> <br>
-        <form action="https://formdump.codeinstitute.net" method="POST">
+    <section class="hero-image-main">
+        <div class="hero-content">
+    <h3 class="hero-title">Booking Form</h3> <br>
+        <p class="hero-subtitle">Please include all the required information and we'll be back in touch within 24 hours to confirm your booking.</p> <br>
+    </div>
+    </section>
+        
+        <!--Booking form messaging section-->
+        
+        <div class="box-container">
+        <div class="box-item"><h3>Booking Form</h3> <br>
+        <form action="#">
         <label for="fname">First Name:</label> <br>
-        <input type="text" id="fname" name="fname" placeholder="Joe" required><br>
+        <input type="text" id="fname" name="fname" placeholder="Your first name" aria-label="Your first name is required here" required><br>
         <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" placeholder="Blogs" required><br>
+        <input type="text" id="lname" name="lname" placeholder="Your last name" aria-label="Your last name is required here" required><br>
         <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" placeholder="joe.blogs@email.com" required><br>
-        <label for="phone">Enter your phone number including country code:</label>
-        <input type="tel" name="phone-number" id="phone-number"> <br>
-        <label for="booking">Booking Date:</label>
-        <input type="date" id="booking" name="booking-date" value="2021-10-01" min="2021-10-01" max="2022-12-31"> <br>
+        <input type="email" id="email" name="email" placeholder="your email address" aria-label="Your email address is required here" required><br>
+        <label for="telephone-number">Enter your telephone number including country code:</label>
+        <input type="tel" name="telephone-number" placeholder="your telephone number including the country code" aria-label="Your telephone number including the country code is required here" required><br>
+        <label for="booking-date">Booking Date:</label>
+        <input type="date" id="booking-date" name="booking-date" value="2021-10-01" min="2021-10-01" max="2022-12-31"> <br>
         <br>
         <p>Tour I'd like to book:</p> <br>
-            <label for="tours">Choose a tour: </label>
+            <label for="tours" aria-label="Choose a tour from the dropdown menu">Choose a tour:</label>
             <select id="tours"name="tours">
-            <option value="walking-tour">Free Walking Tour</option>
-            <option value="foodie-trip">Foodie Trip</option>
-            <option value="modernism-tour">Barcelona Modernism Tour</option>
-            <option value="montserrat-tour">Day Trip to Montserrat</option>
-            <option value="núria-tour">2 Day trip to Vall de Núria</option>
-            <option value="costa-brava-tour">Day Trip to Costa Brava</option>
+            <option value="walking-tour" aria-label="The Free Walking tour">Free Walking Tour</option>
+            <option value="foodie-trip" aria-label="The Foodie Trip tour">Foodie Trip</option>
+            <option value="modernism-tour" aria-label="The Barcelona Modernism tour">Barcelona Modernism Tour</option>
+            <option value="montserrat-tour" aria-label="The Day Trip to Montserrat tour">Day Trip to Montserrat</option>
+            <option value="núria-tour" aria-label="The 2 Day trip to Vall de Núria tour">2 Day trip to Vall de Núria</option>
+            <option value="costa-brava-tour" aria-label="The Day Trip to Costa Brava tour">Day Trip to Costa Brava</option>
         </select>
       
         <br> <br>
-        <label for="booking">Please include any further information you'd like us to know:</label>
-        <textarea name="booking" id="booking" cols="30" rows="10"></textarea>
-        <input type="submit">
+        <label for="booking-information-field" aria-label="Please include any further information you'd like us to know">Please include any further information you'd like us to know:</label><br>
+        <textarea name="booking-information-field" id="booking-information-field" cols="30" rows="10"></textarea>
+        <input type="submit" aria-label="submit the form">
         </form>
         </div>
         </div>
 </body>
 
+<!--Footer information-->
 
-    <footer>
-        <p>Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i></p>
-        <a href="https://www.facebook.com"target="_blank" rel="noopener"
-        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.twitter.com"target="_blank" rel="noopener"
-        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com"target="_blank" rel="noopener"
-        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-    </footer>
+<footer>
+    <div class="footer-container">
+        <div class="footer-box">
+
+        Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i>
+</div>
+        <div class="footer-box">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener"
+    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener"
+    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener"
+    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+
+</div>
+<div class="footer-box">
+<a href="assets/pdf/terms-and-conditions.pdf" target="_blank" rel="noopener" aria-label="View our terms and conditions (Opens in a new tab)">Terms and Conditions</a>
+</div>
+</div>
+</footer>
     
     <!--Font Awesome Script-->
     <script src="https://kit.fontawesome.com/f560873ed9.js" crossorigin="anonymous"></script>

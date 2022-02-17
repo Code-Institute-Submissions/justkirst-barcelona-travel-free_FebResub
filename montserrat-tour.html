@@ -11,59 +11,95 @@
 </head>
 <body>
     <header>
-        <img class="flag-image" src="assets/images/home-flag.png" alt="Catalan and Spanish flags">
-        <h1>Barcelona Travel Free</h1>
+
+    <!--Header section-->
+
+        <img class="flag-image" src="assets/images/flag-logo.png" alt="Catalan and Spanish flags">
+        <h1 class="heading-text">Barcelona Travel Free</h1>
         <img class="logo-image" src="assets/images/logo.png" alt="logo image">
-    <nav>
-        <ul id="menu">
+    
+    <!--Navigation bar section-->    
+        
+    <nav class="nav-bar">
+        <ul id="nav-bar-ul">
             <li>
-                <a href="booking-contact.html">Booking Page and Contact Page</a>
+                <a href="contact-form.html" aria-label="contact us form for the website">Contact Us Form</a>
+            </li>
+            
+            <li>
+                <a href="booking-form.html" aria-label="booking form for the website">Booking Form</a>
             </li>
             <li>
-                <a href="tours.html">Tours</a>
+                <a href="tours.html" aria-label="Go to our tours information page">Tours</a>
             </li>
             <li>    
-            <a href="the-bar.html">The Bar</a>
-            </li>
-            <li>      
-            <a href="getting-here.html">Getting Here</a>
-            </li>   
-            <li>    
-                <a href="index.html">Home</a>
+                <a href="index.html" aria-label="Go back to our homepage">Home</a>
             </li>  
         </ul>
     </nav>
+        
     </header>
-    
-    <h3 align="center">Day Trip to Montserrat</h3>
-    <a href="tours.html">Back to Tours Page</a>
-    <img class="about-image" src="assets/images/montserrat.jpeg" alt="Picture of the Montserrat Monastery">
 
-    <div id="box-content">
-      <h4 align="center" class="bold-title">Tour Times</p><br>
-        <p><i class="far fa-clock"></i> The tour leaves on Saturday at 08:30 from outside the bar</p> <br>
-        <p>Placeholder text</p>
+<!--Hero image and tour title-->    
+    
+    <div class="hero-image-montserrat">
+        <div class="hero-text">
+    <h3>Day Trip to Montserrat</h3>
+    <a href="tours.html" aria-label="Back to the Tours Page"><button class=“hero button”>Back to Tours Page</button></a>
+</div>
+</div>
+
+<!--Tour information boxes-->
+
+    <div class="box-container">
+        <div class="box-item">
+      <h4>Tour Times and Cost</h4><br>
+        <p><i class="far fa-clock"></i>  The tour leaves on Saturday at 08:30 from outside the bar</p> <br>
+        <p><i class="fas fa-euro-sign"></i> The cost of the tour is 30 euros per person and includes all transport</p> <br>
     </div>
     
-     <div id="box-content">
-        <h5> What you’ll experience:</h5> <br>
-        <p>Placeholder Text</p>    
-         <br> <br>  
-        You can book the trip <a href="booking-contact.html">here</a>
+    <div class="box-item">
+        <br><p>
+            Explore one of Catalunya’s cultural highlights – Montserrat Mountain and Monastery.  <br> <br>
+            You’ll be led by one of our guides throughout. In your private transport there, the guide will tell you about Catalan culture, and other local tip-bits of knowledge to keep you entertained on your journey. Your guide will also give a tour of the Basilica and Monastery before giving you some free time to explore the area. <br>
+        <br> </p>
+    </div>
+    
+     <div class="box-item"> 
+        <h4>What you’ll experience:</h4>
+        <ul class="tour-experience-box">
+            <li><i class="fas fa-check"></i> Visit the sacred rock of Montserrat </li>
+            <li><i class="fas fa-check"></i> Experience breathtaking panoramic views of the Montserrat region </li>
+            <li><i class="fas fa-check"></i> Private tour of the Basilica and Monastery </li>
+          </ul> <br>  
+          You can book the trip <a href="booking-form.html" aria-label="Visit our booking page">here</a>
     </div>
 
-    <footer>
-        <p>Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i></p>
-        <a href="https://www.facebook.com"target="_blank" rel="noopener"
-        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.twitter.com"target="_blank" rel="noopener"
-        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com"target="_blank" rel="noopener"
-        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-    </footer>
+<!--Footer information-->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-box">
+
+        Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i>
+</div>
+        <div class="footer-box">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener"
+    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener"
+    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener"
+    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+
+</div>
+<div class="footer-box">
+<a href="assets/pdf/terms-and-conditions.pdf" target="_blank" rel="noopener" aria-label="View our terms and conditions (Opens in a new tab)">Terms and Conditions</a>
+</div>
+</div>
+</footer>
     
     <!--Font Awesome Script-->
     <script src="https://kit.fontawesome.com/f560873ed9.js" crossorigin="anonymous"></script>
-    
-    </body>
-    </html>
+
+</body>
+</html>

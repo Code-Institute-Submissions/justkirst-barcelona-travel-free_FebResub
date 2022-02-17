@@ -11,59 +11,98 @@
 </head>
 <body>
     <header>
-        <img class="flag-image" src="assets/images/home-flag.png" alt="Catalan and Spanish flags">
-        <h1>Barcelona Travel Free</h1>
+
+    <!--Header section-->    
+
+        <img class="flag-image" src="assets/images/flag-logo.png" alt="Catalan and Spanish flags">
+        <h1 class="heading-text">Barcelona Travel Free</h1>
         <img class="logo-image" src="assets/images/logo.png" alt="logo image">
-    <nav>
-        <ul id="menu">
+
+    <!--Navigation bar section-->
+
+    <nav class="nav-bar">
+        <ul id="nav-bar-ul">
             <li>
-                <a href="booking-contact.html">Booking Page and Contact Page</a>
+                <a href="contact-form.html" aria-label="contact us form for the website">Contact Us Form</a>
+            </li>
+            
+            <li>
+                <a href="booking-form.html" aria-label="booking form for the website">Booking Form</a>
             </li>
             <li>
-                <a href="tours.html">Tours</a>
+                <a href="tours.html" aria-label="Go to our tours information page">Tours</a>
             </li>
             <li>    
-            <a href="the-bar.html">The Bar</a>
-            </li>
-            <li>      
-            <a href="getting-here.html">Getting Here</a>
-            </li>   
-            <li>    
-                <a href="index.html">Home</a>
+                <a href="index.html" aria-label="Go back to our homepage">Home</a>
             </li>  
         </ul>
     </nav>
+        
     </header>
-    
-    <h3 align="center">Barcelona Modernism Tour</h3>
-    <a href="tours.html">Back to Tours Page</a>
-    <img class="about-image" src="assets/images/modernism.jpeg" alt="Image of Gaudi architecture">
 
-    <div id="box-content">
-      <h4 align="center" class="bold-title">Tour Times</p><br>
-      <p><i class="far fa-clock"></i> The tour leaves at 10:00 on Tuesday, Thursday and Saturday from outside the bar</p> <br>
-        <p>Placeholder text</p>
+    <!--Hero image and tour title-->
+    
+    <div class="hero-image-modernism">
+        <div class="hero-text">
+    <h3>Barcelona Modernism Tour</h3>
+    <a href="tours.html" aria-label="Back to the Tours Page"><button class=“hero button”>Back to Tours Page</button></a>
+</div>
+</div>
+
+<!--Tour information boxes-->
+   
+   <div class="box-container">
+        <div class="box-item">
+      <h4>Tour Times and Cost</h4><br>
+        <p><i class="far fa-clock"></i>  The tour leaves at 10:00 on Tuesday, Thursday and Saturday from outside the bar</p> <br>
+        <p><i class="fas fa-euro-sign"></i> The cost of the tour is 15 euros per person</p> <br>
     </div>
     
-     <div id="box-content">
-        <h5> What you’ll experience:</h5> <br>
-        <p>Placeholder Text</p>    
-         <br> <br>  
-        You can book the trip <a href="booking-contact.html">here</a>
+    <div class="box-item">
+        <p>
+            Learn about the magnificent works of Catalan Architect, Gaudí and marvel at the likes of the, yet, uncompleted La Sagrada Familia (undoubtedly, his most famous piece of work). <br>
+
+            You’ll also get to visit other, equally important Modernist buildings in the Eixample neighbourhood of Barcelona from the mid-19th century during this 3 hour tour.
+            
+        </p>
+    </div>
+    
+  <div class="box-item"> 
+        <h4>What you’ll experience:</h4>
+        <ul class="tour-experience-box">
+            <li><i class="fas fa-check"></i> Passeig de Gracia, the city’s premier shopping and living street that includes amazing architecture designed by Gaudí </li>
+            <li><i class="fas fa-check"></i> Casa Calvet and Casa Batlló designed by Gaudí </li>
+            <li><i class="fas fa-check"></i> Basilica de la Sagrada Familia, UNESCO World Heritage Site, a Roman Catholic church, also designed by Gaudí </li>
+            <li><i class="fas fa-check"></i> Buildings designed by 19th Century architects, Josep Puig i Cadafalch, Salvador Valeri i Pupurull and Josep Puig i Cadafalch </li>
+        </ul> <br>  
+        You can book the trip <a href="booking-form.html" aria-label="Visit our booking page">here</a>
     </div>
 
-    <footer>
-        <p>Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i></p>
-        <a href="https://www.facebook.com"target="_blank" rel="noopener"
-        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.twitter.com"target="_blank" rel="noopener"
-        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com"target="_blank" rel="noopener"
-        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-    </footer>
+   <!--Footer information-->
+
+   <footer>
+    <div class="footer-container">
+        <div class="footer-box">
+
+        Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i>
+</div>
+        <div class="footer-box">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener"
+    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener"
+    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener"
+    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+
+</div>
+<div class="footer-box">
+<a href="assets/pdf/terms-and-conditions.pdf" target="_blank" rel="noopener" aria-label="View our terms and conditions (Opens in a new tab)">Terms and Conditions</a>
+</div>
+</div>
+</footer>
     
     <!--Font Awesome Script-->
     <script src="https://kit.fontawesome.com/f560873ed9.js" crossorigin="anonymous"></script>
-    
-    </body>
-    </html>
+
+</body>
+</html>

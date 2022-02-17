@@ -11,60 +11,95 @@
 </head>
 <body>
     <header>
-        <img class="flag-image" src="assets/images/home-flag.png" alt="Catalan and Spanish flags">
-        <h1>Barcelona Travel Free</h1>
+
+    <!--Header section-->    
+
+        <img class="flag-image" src="assets/images/flag-logo.png" alt="Catalan and Spanish flags">
+        <h1 class="heading-text">Barcelona Travel Free</h1>
         <img class="logo-image" src="assets/images/logo.png" alt="logo image">
-    <nav>
-        <ul id="menu">
+
+    <!--Navigation bar section-->    
+
+    <nav class="nav-bar">
+        <ul id="nav-bar-ul">
             <li>
-                <a href="booking-contact.html">Booking Page and Contact Page</a>
+                <a href="contact-form.html" aria-label="contact us form for the website">Contact Us Form</a>
+            </li>
+            
+            <li>
+                <a href="booking-form.html" aria-label="booking form for the website">Booking Form</a>
             </li>
             <li>
-                <a href="tours.html">Tours</a>
+                <a href="tours.html" aria-label="Go to our tours information page">Tours</a>
             </li>
             <li>    
-            <a href="the-bar.html">The Bar</a>
-            </li>
-            <li>      
-            <a href="getting-here.html">Getting Here</a>
-            </li>   
-            <li>    
-                <a href="index.html">Home</a>
+                <a href="index.html" aria-label="Go back to our homepage">Home</a>
             </li>  
         </ul>
     </nav>
+        
     </header>
-    
-    <h3 align="center">Foodie Trip</h3>
-    <a href="tours.html">Back to Tours Page</a>
-    <img class="about-image" src="#" alt="Image of foodie tour">
 
-    <div id="box-content">
-      <h4 align="center" class="bold-title">Tour Times</p><br>
-        <p align="center">Foodie Trip</p>
+    <!--Hero image and tour title-->
+
+    <div class="hero-image-foodie">
+        <div class="hero-text">
+    <h3>Foodie Trip</h3>
+    <a href="tours.html" aria-label="Back to the Tours Page"><button class=“hero button”>Back to Tours Page</button></a>
+</div>
+</div>
+
+<!--Tour information boxes-->
+    
+     <div class="box-container">
+        <div class="box-item">
+      <h4>Tour Times and Cost</h4><br>
         <p><i class="far fa-clock"></i> The tour leaves at 18:30 every day, except from Sunday from outside the bar</p> <br>
-        <p>Placeholder text</p>
-    </div>
-    
-     <div id="box-content">
-        <h5> What you’ll experience:</h5> <br>
-        <p>Placeholder Text</p>    
-         <br> <br>  
-        You can book the trip <a href="booking-contact.html">here</a>
+        <p><i class="fas fa-euro-sign"></i> The cost of the tour is 45 euros per person</p> <br>
     </div>
 
-    <footer>
-        <p>Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i></p>
-        <a href="https://www.facebook.com"target="_blank" rel="noopener"
-        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.twitter.com"target="_blank" rel="noopener"
-        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com"target="_blank" rel="noopener"
-        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-    </footer>
+    <div class="box-item">
+        <br> <p>
+            Barcelona Travel Free’s Foodie tour will show you 3 restaurants loved by locals. And, for good reason too. They are authentic and with high quality food and drink to keep you feasted for the duration of your time with us.
+       <br> </p>
+    </div>
+    
+    <div class="box-item"> 
+        <h4>What you’ll experience:</h4> <br>
+        <ul class="tour-experience-box">
+            <li><i class="fas fa-check"></i> 3 restaurants</li> 
+            <li><i class="fas fa-check"></i> Different dishes in each restaurant (tapas, main dishes and deserts)</li>
+            <li><i class="fas fa-check"></i> Drinks in each restaurant we visit </li>
+            <li><i class="fas fa-check"></i> A local, knowledgeable guide who will give all the details of the history, culture and local life of Barcelona</li>
+            </ul> <br>
+            You can book the trip <a href="booking-form.html" aria-label="Visit our booking page">here</a>
+            </div>        
+
+<!--Footer information-->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-box">
+
+        Copyright Barcelona Travel Free 2021<i class="far fa-copyright"></i>
+</div>
+        <div class="footer-box">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener"
+    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener"
+    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener"
+    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+
+</div>
+<div class="footer-box">
+<a href="assets/pdf/terms-and-conditions.pdf" target="_blank" rel="noopener" aria-label="View our terms and conditions (Opens in a new tab)">Terms and Conditions</a>
+</div>
+</div>
+</footer>
     
     <!--Font Awesome Script-->
     <script src="https://kit.fontawesome.com/f560873ed9.js" crossorigin="anonymous"></script>
-    
-    </body>
-    </html>
+
+</body>
+</html>

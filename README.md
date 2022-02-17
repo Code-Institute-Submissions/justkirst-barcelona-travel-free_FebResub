@@ -1,108 +1,179 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Barcelona Travel Free
 
-Welcome justkirst,
+## Site Overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Barcelona Travel Free is a travel company and is a site that hopes to help backpackers visiting Barcelona with activities that are suited to this particular type of traveller. The site is targeted at backpackers or other travellers that enjoy unconventional types of tours when visiting a different city around the world. This site is targeted towards this demographic as it enables them to socialise with like minded people while seeing different parts of the city and Cataluyna too.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Screenshot from Am I responsive site](assets/../docs/screenshots/am-i-responsive.png)
 
-## Gitpod Reminders
+## Planning Stages
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Site Aims
 
-`python3 -m http.server`
+* To offer a space for like-minded travellers to join together for tours and friendship
+* Provide tours that cater towards this demographic
+* Provide a way online that is clear and easy for site users to book the tour or tours of their choice
 
-A blue button should appear to click: _Make Public_,
+### Wireframes
 
-Another blue button should appear to click: _Open Browser_.
+While designing the site, I wanted to have on paper my ideas for the end result. I completed wireframes for this reason via [Balsamiq](https://balsamiq.com/). 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Although, my original ideas changed during the process, they are now features for future enhancements instead.
 
-A blue button should appear to click: _Make Public_,
+* [(Homepage](assets/../docs/Wireframes/homepage-wireframe.png)
+* [Getting There](assets/../docs/Wireframes/gettingthere-wireframe.png)
+* [The Bar](assets/../docs/Wireframes/bar-wireframe.png)
+* [Tours](assets/../docs/Wireframes/tours-wireframe.png)
+* [Booking/Payment](assets/../docs/Wireframes/booking-wireframe.png)
+* [Contact Us](assets/../docs/Wireframes/contact-wireframe.png)
 
-Another blue button should appear to click: _Open Browser_.
+### Color Schemes
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+For this project, I wanted the color scheme to match the Catalan colors but also be accessable for visually impaired users. I decided to use [Adobe Color](https://color.adobe.com/) as it has an accessibility feature that allows you to see how different themes are accessible for this disability group. 
 
-To log into the Heroku toolbelt CLI:
+The color schemes I chose passed the accesibility tests. As I have a contrasting color for the box elements, I ensured both passed the tests set by Adobe Color.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Screenshot of Adobe Color Scheme for background color and text color](assets/screenshots/../../docs/screenshots/color%20background%20accessability.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Screenshot of Adobe Color Scheme for box background color and text color](assets/screenshots/../../docs/screenshots/color-boxes-accessability.png)
 
-------
+## Current Features used on all pages
 
-## Release History
+### Header Element
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Screenshot of my Header element](assets/../docs/screenshots/header-navbar.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+I wanted something similar but eye-catching and I used the images that I did as they encompass the company’s belief of being for backpackers and also, that, by using the flags merged together, symbolising that Cataluyna is different but still joined together with Spain. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Navigation Bar
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Screenshot of my Navbar element](assets/../docs/screenshots/nav-bar.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* The navigation bar appears on all 4 main pages and also the 6 information pages for the tours offered.
+* It contains links to the homepage, tours page, booking form and contact form. 
+* It will always stick to the top of the page allowing easy access for navigation around the website
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Footer
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Screenshot of my Footer element](assets/../docs/screenshots/footer.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* The footer includes links to all of Barcelona Travel Free’s social media pages. The links open in a new tab for easy user navigation.
+* The icons used to represent each social media platform were imported from Font Awesome.
+* --Information about Terms and Conditions-- 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Current Features to unique individual pages
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Homepage
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Screenshot of my Homepage](assets/../docs/screenshots/index-page.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* I used a simple but eye catching box layout that was used throughout the design to give it a streamlined user experience.
+* A place for visitors to get instant information about who Barcelona Travel Free is.
+* A direct link to easily check the current COVID restrictions in Barcelona.
+* A navigation bar at the top right hand corner of the page with links to each of the 4 website pages for quick access at all times. 
+* A Google Map iframe element with the address of the company’s office. The address on the map is not correct for Barcelona Travel Free but is in the vicinity of where I envision the office to be in Barcelona.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Tours page
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Screenshot of the main Tours page](assets/../docs/screenshots/tours-main.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Screenshot of the Walking Tour page](assets/../docs/screenshots/walking-tour-page.png)
 
-------
+![Screenshot of the Foodie Trip page](assets/../docs/screenshots/foodie-trip-page.png)
 
-## FAQ about the uptime script
+![Screenshot of the Barcelona Modernism Tour page](assets/../docs/screenshots/modernism-tour-page.png)
 
-**Why have you added this script?**
+![Screenshot of the Day Trip to Montserrat Tour page](assets/../docs/screenshots/montserrat-tour-page.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Screenshot of the 2 Day Trip to Vall de Núria page](assets/../docs/screenshots/nuria-tour-page.png)
 
-**How will this affect me?**
+![Screenshot of the Day Trip to Costa Brava page](assets/../docs/screenshots/costabrava-tour-page.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* I used the same box layout showcasing the 6 tours offered with links to their own information page
+* I originally was going to have all the tours and information section on one page but decided to change this format as the page was starting to look to crowded and this would not have been a good experience for the user.
+* Upon clicking on the information link for the tour, the 3 box layout is used again throughout with each box having specific information that shows a good customer journey.
+* I have also included a direct link to the booking page at the bottom of the “What you’ll experience”/”What’s included” section for easy accessibility to book the tour wanted.
+* I’ve also included a hero banner at the top of the boxes representing the particular tour that stretches across the screen.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Booking page
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Screenshot of the Booking page](assets/screenshots/../../docs/screenshots/booking-form.png)
 
-**So….?**
+* The booking page has one main box that has a form to fill out for booking tours
+* I’ve included required fields for name, email address, telephone number and tour option so that I know who has sent the information and who to respond directly too.
+* I’ve included a further information box for the user to include any further information they feel is valuable for their booking.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Contact Us page
 
-**Can I opt out?**
+![Screenshot of the Contact Us page](assets/../docs/screenshots/contact-page.png)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* Is similar in layout to the booking page but only the first name and email fields are required as this is basic information to respond directly to any feedback or query the user has.
+* I have also included the telephone number and WhatsApp number for the user to contact me via that method if preferred. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Future Enhancements
 
-**Anything more?**
+I want the booking page to be more interactive and allow users to book and pay for their tours directly through the website. To achieve this, I want update the current booking form to enable this with fields for Credit/Debit card and PayPal input. A basket field to highlight what tour/tours have been booked and the total cost for that transaction.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Initially, I also wanted to add a “Getting Here” and “The Bar” pages. I want to use the same box-grid layout but provide information on different transport methods to reach Barcelona in the Getting Here page and for The Bar page, I want to have sections for a food menu, drinks menu and events listing section. This would further enhance the Barcelona Travel Free brand and make it more appealing for a tourism option in Barcelona for backpackers.
 
----
+## Testing
 
-Happy coding!
+### Manual Testing
+
+During the build of the repository, I manually checked the website throughout on my large desktop computer, laptop and mobile phone to make sure the look and feel of the website was correct. I also used Chrome Dev Tools to see how the website would look on different sizes also.
+
+### Post Development Testing
+
+After developing the website, I used validation tools to highlight any performance issues.
+
+Both [W3 HTML Validator](https://validator.w3.org/nu/) and [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) found no issues.
+
+However, when testing on Lighthouse, the performance scores were low to begin with and this was due to the sizing of my images and the Google Maps iframe. I resized the images using [tinypng](https://tinypng.com/) and compressed them as much as possible without the images getting distorted.
+
+Upon testing again, I received the following scores:
+
+### Homepage
+
+Desktop Score ![Desktop Score for Lighthouse Validation](docs/screenshots/index-testing-desktop.png)
+Mobile Score ![Mobile Score for Lighthouse Validation](docs/screenshots/index-testing-mobile.png)
+
+### Tours page
+
+Desktop Score ![Desktop Score for Lighthouse Validation](docs/screenshots/tours-testing-desktop.png)
+Mobile Score ![Mobile Score for Lighthouse Validation](docs/screenshots/tours-testing-mobile.png)
+
+### Booking page
+
+Desktop Score ![Desktop Score for Lighthouse Validation](docs/screenshots/booking-testing-desktop.png)
+Mobile Score ![Mobile Score for Lighthouse Validation](docs/screenshots/booking-testing-mobile.png)
+
+### Contact Us page
+
+Desktop Score ![Desktop Score for Lighthouse Validation](docs/screenshots/contact-testing-desktop.png)
+Mobile Score ![Mobile Score for Lighthouse Validation](docs/screenshots/contact-testing-mobile.png)
+
+
+## Deployment
+
+I deployed my project on GitHub pages via the following procedure:
+
+1. From the project's repository, go to the **Settings** tab
+2. From the menu on the left-hand side, select the **Pages** tab
+3. In the **Source** section, select the option for **Main** branch in the drop down menu and click **Save**
+4. A message will be displayed to advise the project owner of a successful deployment to GitHub pages and the live link will be provided also
+
+The live site via the following URL - [Barcelona Travel Free](https://justkirst.github.io/barcelona-travel-free/)
+
+## Credits
+
+## Content
+
+* All content on the website was written by myself
+* Fonts were sourced from [Google Fonts](https://fonts.google.com/)
+* Icons were sourced from [Font Awesome](https://fontawesome.com/icons)
+
+## Media
+
+* The header logo images were sourced from [Canva](https://www.canva.com/en_gb/)
+* The photos used were sourced from [Freepix](https://www.freepik.com/) and [Shutterstock](https://www.shutterstock.com/)
+* Photos used on the tour information pages except for the Free Walking Tour and Foodie Trip information pages were taken by me.
