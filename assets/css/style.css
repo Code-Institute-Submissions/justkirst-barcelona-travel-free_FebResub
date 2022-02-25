@@ -606,10 +606,7 @@ textarea {
   }
 
 .logo-image {
-  width: 10%;
-  height: 10%;
-  margin-top: 1rem;
-  margin-right: 8%%;
+display: none;
 }  
 
 .hero-image-about, .hero-image-costabrava, .hero-image-foodie, .hero-image-modernism, .hero-image-montserrat, .hero-image-nuria, .hero-image-tours, .hero-image-walking {
@@ -662,6 +659,10 @@ textarea {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     justify-content: center;
+  }
+
+  .footer-box {
+    width: 90%;
   }
 
   nav {
