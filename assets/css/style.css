@@ -137,6 +137,15 @@ nav ul li a {
   text-align: center;
 }
 
+.box-container-booking {
+  display: grid;
+  grid-template-columns: fit-content(40%);
+  background-color: #ffea9a;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 /* iframe styling */
 
 .map-size iframe {
@@ -641,3 +650,20 @@ textarea {
   }
 }
 
+/* Media queries for landscape device viewing */
+
+@media screen and (orientation:landscape) and (min-device-width: 500px) and (max-device-width: 900px) {
+
+  .box-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+  }
+
+}
