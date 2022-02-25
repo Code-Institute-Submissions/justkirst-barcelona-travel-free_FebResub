@@ -22,9 +22,11 @@ nav {
   padding: 0.56rem;
   background: #ffea9a;
 }
+
 nav i {
   color: #F7A305;
 }
+
 nav ul {
   display: flex;
   flex-direction: column;
@@ -38,6 +40,7 @@ nav ul {
   transition: .5s ease-in-out;
   background-color: #ffea9a;
 }
+
 nav ul li {
   display: inline-block;
   line-height: 0.93rem;
@@ -45,6 +48,7 @@ nav ul li {
   margin: 0 1rem;
   padding-right: 1rem;
 }
+
 nav ul li a {
   position: relative;
   padding: .3rem 0;
@@ -63,18 +67,23 @@ nav ul li a {
   font-size: 2rem;
   line-height: 3.125rem;
 }
+
 #menu-close {
   display: none;
 }
+
 #show-menu {
   display: none;
 }
+
 #show-menu:checked ~ ul {
   right: 0;
 }
+
 #show-menu:checked ~ label #menu-open {
   display: none;
 }
+
 #show-menu:checked ~ label #menu-close {
   display: block;
 }
@@ -254,7 +263,7 @@ nav ul li a {
   font-size: 1.5rem;
   font-weight: bolder;
   text-align: center;
-  color: #70342D;
+  color: #f8f8ff;
 }
 
 .hero-button {
@@ -540,10 +549,9 @@ textarea {
 @media screen and (max-width: 540px) { 
 
   .heading-text {
-    margin-top: -2rem;
-    margin-left: 4rem;
+    margin-top: 3.5rem;
+    margin-left: 0.5rem;
     font-size: 1.3rem;
-    text-align: center;
   }  
 
   h3 {
@@ -557,7 +565,9 @@ textarea {
   }
 
   .nav-bar {
-    font-size: 65%;
+    font-size: 50%;
+    position: absolute;
+    z-index: 1;
   }
   
   #nav-bar {
@@ -583,7 +593,7 @@ textarea {
     width: 10%;
     height: 10%;
     float: left;
-    margin-top: -3rem;
+    margin-top: 3.5rem;
     margin-left: 2%;
   }
 
@@ -591,12 +601,17 @@ textarea {
   width: 10%;
   height: 10%;
   float: right;
-  margin-top: -2.5rem;
-  margin-right: 15%;
+  margin-top: -6.6rem;
+  margin-inline-end: 12%;
 }  
 
-.hero-image-about {
-  height:40%;
+.hero-image-about, .hero-image-costabrava, .hero-image-foodie, .hero-image-modernism, .hero-image-montserrat, .hero-image-nuria, .hero-image-tours, .hero-image-walking {
+  position: relative;
+  width: auto;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-title {
@@ -613,8 +628,8 @@ textarea {
   }
 
 .box-container {
-    width: 90%;
-    grid-template-columns: auto;
+  width: 100%;
+  margin-left: 0%;
   }
   
   .box-item {
