@@ -607,7 +607,7 @@ textarea {
 
 .hero-image-about, .hero-image-costabrava, .hero-image-foodie, .hero-image-modernism, .hero-image-montserrat, .hero-image-nuria, .hero-image-tours, .hero-image-walking {
   position: relative;
-  width: auto;
+  width: 90vw;
   height: 30vh;
   display: flex;
   justify-content: center;
