@@ -10,44 +10,73 @@ body {
   font-family: 'Karla', 'Montserrat', sans-serif;
    background-color: #ffea9a;
   color: #70342D;
-
 }
 
 /* headings and navigation bar styling */
 
-.nav-bar  {
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 1rem;
+  margin-top: 9%;
+  padding: 0.56rem;
+  background: #ffea9a;
+}
+nav i {
+  color: #F7A305;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  top: 100px;
+  right: -100%;
+  transition: .5s ease-in-out;
   background-color: #ffea9a;
-  }
-
-.nav-bar a {
-  float: left;
-  padding: 5px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 15px;
+  font-size: larger;
+  margin: 0 1rem;
+  padding-right: 1rem;
+}
+nav ul li a {
+  position: relative;
+  padding: .3rem 0;
   color: #70342D;
+  font-size: 1.2rem;
   text-decoration: none;
-  font-size: 1.1rem; 
-  text-align: center;
 }
 
 .nav-bar a:hover {
-   border: 4px solid #F7A305;
-   background-color: #F7A305;
+ border: 4px solid #F7A305;
+ background-color: #F7A305;
 }  
 
-.nav-bar ul {
-  list-style-type: none;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  overflow: hidden;
+#menu-open,
+#menu-close {
+  font-size: 2rem;
+  line-height: 50px;
 }
-
-.nav-bar li {
-  float: right;
+#menu-close {
+  display: none;
+}
+#show-menu {
+  display: none;
+}
+#show-menu:checked ~ ul {
+  right: 0;
+}
+#show-menu:checked ~ label #menu-open {
+  display: none;
+}
+#show-menu:checked ~ label #menu-close {
+  display: block;
 }
 
 .heading-text {
@@ -118,7 +147,6 @@ body {
 .tour-experience-box {
   list-style: none;
 }
-
 
 /* Hero image styling for homepage, booking page and contact page */
 
@@ -269,6 +297,23 @@ align-items: center;
   font-size: 1.1rem;
 }
 
+/* Media Queries for large screen sizes 1024px and above */
+
+
+@media screen and (min-width: 1024px) {
+  label #menu-open,
+    label #menu-close {
+        display: none;
+    }
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        position: inherit;
+        right: 0;
+        height: 100%;
+        top: 0;
+    }
+}
 
 /* For medium screen sizes 950px wide and down */
 
@@ -324,7 +369,7 @@ align-items: center;
   .heading-text {
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 12%;
+    margin-top: 2%;
 }
 
 h3 {
@@ -580,3 +625,4 @@ textarea {
     max-width: 85%;
   }
 }
+
