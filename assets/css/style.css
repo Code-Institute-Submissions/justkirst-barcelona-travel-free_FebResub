@@ -664,4 +664,13 @@ textarea {
     justify-content: center;
   }
 
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 1rem;
+    margin-top: -2rem;
+    padding: 0.56rem;
+    background: #ffea9a;
+  }
+
 }
